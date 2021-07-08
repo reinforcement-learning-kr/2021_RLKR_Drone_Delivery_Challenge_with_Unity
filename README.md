@@ -44,11 +44,11 @@ RL Village에서 사용한 에셋 리스트 입니다.
 
 |Num|Assets|Link|
 |---|---|---|
-|1|드론 에셋|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
-|2|마을 에셋|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
-|3|마을 에셋|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
-|4|하늘 에셋|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
-|5|새 에셋|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
+|1|드론|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
+|2|마을|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
+|3|마을|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
+|4|하늘|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
+|5|새|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
 
 
 
