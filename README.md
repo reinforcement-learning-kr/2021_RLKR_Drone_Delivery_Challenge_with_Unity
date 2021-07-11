@@ -39,6 +39,19 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 - Linux: [Link](https://www.dropbox.com/s/4j1cnkft5sdn9gc/Linux.zip?dl=0)
 
 
+#### RL Village 사용 에셋
+RL Village에서 사용한 에셋 리스트 입니다.
+
+|Num|Assets|Link|
+|---|---|---|
+|1|드론|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
+|2|마을|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
+|3|마을|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
+|4|하늘|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
+|5|새|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
+
+
+
 
 ## :rocket: 챌린지 시작하기  
 2021 RLKorea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다.
