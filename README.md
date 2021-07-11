@@ -48,17 +48,17 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 
 (common)
 
-- [Unity ML-Agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/unity_ml-agents_install.md)
+- [Unity ML-Agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/unity_ml-agents_install.md)
 
 (type1.python api)
 
-- [환경 다운로드 후 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/run_with_random_agent.md)
+- [환경 다운로드 후 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_random_agent.md)
 
-- [예제 알고리즘 (DQN, A2C)로 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/run_with_baseline_dqn_a2c.md)
+- [예제 알고리즘 (DQN, A2C)로 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_baseline_dqn_a2c.md)
 
 (type2.ml-agents)
 
-- [ML-Agents에서 제공하는 알고리즘을 사용하여 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/run_with_ml-agents.md)
+- [ML-Agents에서 제공하는 알고리즘을 사용하여 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_ml-agents.md)
 
 
 ## :calendar: 일정 
