@@ -61,17 +61,18 @@ RL Village에서 사용한 에셋 리스트 입니다.
 
 (common)
 
-- [Unity ML-Agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/unity_ml-agents_install.md)
+- [Unity ML-Agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/unity_ml-agents_install.md)
+- [제출하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/submission.md)
 
 (type1.python api)
 
-- [환경 다운로드 후 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_random_agent.md)
+- [환경 다운로드 후 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_random_agent.md)
 
-- [예제 알고리즘 (DQN, A2C)로 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_baseline_dqn_a2c.md)
+- [예제 알고리즘 (DQN, A2C)로 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_baseline_dqn_a2c.md)
 
 (type2.ml-agents)
 
-- [ML-Agents에서 제공하는 알고리즘을 사용하여 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/run_with_ml-agents.md)
+- [ML-Agents에서 제공하는 알고리즘을 사용하여 환경 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_ml-agents.md)
 
 
 ## :calendar: 일정 
@@ -79,35 +80,6 @@ RL Village에서 사용한 에셋 리스트 입니다.
 - **2021.xx.xx**: 챌린지 시작 
 
 - **2021.xx.xx**: 챌린지 종료 
-
-### **Time table(세부일정)**
-
-Day1 Orientation and Preparation
-
-|Mon(Aug 30)||
-|-|-|
-|10:00|대회 오픈|
-|11:00-14:00|대회 오픈|
-||대회 오픈|
-||대회 오픈|
-
-Day2 Hackaton
-
-|Tue(Aug 31)||
-|-|-|
-||대회 오픈|
-||대회 오픈|
-||대회 오픈|
-||대회 오픈|
-
-Day3 Final/Awards
-
-|Wed(Sep 1)||
-|-|-|
-||대회 오픈|
-||대회 오픈|
-||대회 오픈|
-||수상자 발표|
 
 ## :trophy: Awards
 2021 RLKorea Drone Delivery Challenge의 어워드는 다음과 같습니다.🎉
@@ -144,4 +116,3 @@ Thanks to
 <p align= "left">
   <img src="./images/support.png" width="300" alt="Env" align="left" />
 </p>
-
