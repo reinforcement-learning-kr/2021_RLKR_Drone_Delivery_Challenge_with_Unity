@@ -7,31 +7,20 @@
 # 2021 RL Korea Drone Delivery Challenge 
 
 ## 🤗 Welcome!
----
+
 본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
 ### 🔥 Who will be the coolest drone delivery model?
 
-## ➡️ Index
 ---
+## ➡️ Index
+
 > Click to get to the section you want quickly.
-- [Schedule](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#calendar-%EC%9D%BC%EC%A0%95)
 
-- [Awards](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#trophy-awards)
-
-- [Join the challenge](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#how-to-participate)
-
-- [About RL Village](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#package-%EB%93%9C%EB%A1%A0-%EB%B0%B0%EC%86%A1-%ED%99%98%EA%B2%BD-rl-village)
-
-- [Let's START](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#rocket-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
-
-- [Operator(Contact)](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#busts_in_silhouette-%EC%9A%B4%EC%98%81%EC%A7%84)
-
-- [Sponsor](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#thumbsup-%ED%9B%84%EC%9B%90)
-
+| [Schedule](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#calendar-%EC%9D%BC%EC%A0%95) | [Awards](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#trophy-awards) | [Join the challenge](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#how-to-participate) | [About RL Village](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#package-%EB%93%9C%EB%A1%A0-%EB%B0%B0%EC%86%A1-%ED%99%98%EA%B2%BD-rl-village) | [Let's START](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#rocket-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0) | [Operator(Contact)](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#busts_in_silhouette-%EC%9A%B4%EC%98%81%EC%A7%84) | [Sponsor](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#thumbsup-%ED%9B%84%EC%9B%90)
 
 
 ## 📅 Schedule
----
+
 |Date|Event|
 |-|-|
 |**2021.xx.xx**|챌린지 시작 |
@@ -39,7 +28,6 @@
 
 
 ## 🏆 Awards
----
 2021 RLKorea Drone Delivery Challenge의 어워드는 다음과 같습니다.🎉
 
 |Grade|Award|
@@ -50,7 +38,7 @@
 |🎖특별상||
 
 ## 👋 Join the challenge
----
+
 대회에 참가하기 위해서는 아래의 참가 신청 양식을 작성해주시면 됩니다.
 
 ☑️ [참가 양식 작성하기]()
@@ -60,9 +48,8 @@
 ➡️ [Slack #2021 RLKorea Drone Delivery Challenge 채널 들어가기]()
 
 
-
-## 🏡 About RL Village
 ---
+## 🏡 About RL Village
 <p align= "center">
   <img src="./images/env.png" width="1000" alt="Env" />
 </p>
@@ -92,9 +79,9 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 
 ![unity_asset_store](./images/unity_asset_store.png)
 
-
-## 🚀 Let's START
 ---
+## 🚀 Let's START
+
 2021 RLKorea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다. Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
 
 ||참가방식|설명|
@@ -114,9 +101,9 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 
 - 2️⃣ [ml-agents 2.0에서 제공하는 알고리즘을 사용하여 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_ml-agents.md)
 
-
-## 👥 Operator(Contact)
 ---
+## 👥 Operator(Contact)
+
 대회 기간동안 문의사항은 Slack에서 빠르게 답변드리도록 하겠습니다. 이외에 Slack에서 문의하기 어려운 내용은 아래의 메일로 연락을 주시면 감사하겠습니다.
 
 📧 Contact: rlkorea7@gmail.com
@@ -124,9 +111,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 - 민규식, 이동민, 이정연, 이정우, 정규열, 차금강 
 
 
-
 ## 💙 Sponsor
----
 Thanks to
 
 <p align= "left">
