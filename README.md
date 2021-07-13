@@ -16,7 +16,7 @@
 
 > Click to get to the section you want quickly.
 
-| [Schedule](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#calendar-%EC%9D%BC%EC%A0%95) | [Awards](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#trophy-awards) | [Join the challenge](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#how-to-participate) | [About RL Village](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#package-%EB%93%9C%EB%A1%A0-%EB%B0%B0%EC%86%A1-%ED%99%98%EA%B2%BD-rl-village) | [Let's START](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#rocket-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0) | [Operator(Contact)](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#busts_in_silhouette-%EC%9A%B4%EC%98%81%EC%A7%84) | [Sponsor](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#thumbsup-%ED%9B%84%EC%9B%90)
+**|** [Schedule](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-awards) **|** [Join the challenge](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-join-the-challenge) **|** [About RL Village](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-operatorcontact) **|** [Sponsor](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-sponsor)
 
 
 ## 📅 Schedule
