@@ -1,8 +1,4 @@
-[TOC]
-
-
-# Contents
-- [Ml-agents 2.0 설치하기]()
+#### ➡️ Index
 - [RL Village build 파일 열기]()
 - [Config 파일 작성하기]()
 - [Training 하기]()
@@ -10,14 +6,11 @@
 - [학습된 onnx file로 inference하기]()
 - [Reference]()
 
-# Ml-agents 2.0 설치하기
-1. 공식 Github 페이지에서 Download를 해줍니다. test[^test]
-
-2. conda에 가상환경을 하나 만듭니다. conda create -n [name]
-3. ml-agents를 다운 받은 파일을 열어서
-4. CLI 창에 mlagents-learn ==--help==를 입력했을 때, 아래와 같은 
+---
 
 # RL Village build 파일 열기
+
+
 
 # Config 파일 작성하기
 
@@ -50,12 +43,8 @@ mlagents-learn --env=C:\Users\Jungyeon\Desktop\droneHackaton\windows --resume --
 ```
 
 # Reference
-
-- [Unity Technologies Blog ML-Agents v2.0 release: Now supports training complex cooperative behaviors](https://blog.unity.com/technology/ml-agents-v20-release-now-supports-training-complex-cooperative-behaviors)<sup>1<sup/>
-- 
+- [1] [Unity Technologies Blog ML-Agents v2.0 release: Now supports training complex cooperative behaviors](https://blog.unity.com/technology/ml-agents-v20-release-now-supports-training-complex-cooperative-behaviors) <sup>1<sup/>
+- [2] [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) <sup>2<sup/>
+- [3] [AI in Unity | ML Agents 1.0](https://youtube.com/playlist?list=PL8fePt58xRPY1-pkhMPus3GlUGXNdqMH5) <sup>3<sup/>
+- [4] [ml-agents/ML-Agents-Overview.md at main · Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/ML-Agents-Overview.md) <sup>3<sup/>
 - []()
-- []()
-- []()
-
----
-[^test]: [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents)
