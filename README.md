@@ -37,6 +37,7 @@
 |🥉3rd||
 |🎖특별상||
 
+---
 ## 👋 Join the challenge
 
 대회에 참가하기 위해서는 아래의 참가 신청 양식을 작성해주시면 됩니다.
@@ -56,12 +57,12 @@
 
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 
-✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/rl_village_info.md)
+✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
 ### 📦 RL Village 환경 Download
 RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
 
-- WIndows: [Link](https://www.dropbox.com/s/rjx6k6jcehhds46/windows.zip?dl=0) 
+- Windows: [Link](https://www.dropbox.com/s/rjx6k6jcehhds46/windows.zip?dl=0) 
 - Mac: [Link](https://www.dropbox.com/s/hv8uwax87in82wh/mac.zip?dl=0)
 - Linux: [Link](https://www.dropbox.com/s/4j1cnkft5sdn9gc/Linux.zip?dl=0)
 
@@ -82,7 +83,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 ---
 ## 🚀 Let's START
 
-2021 RLKorea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다. Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
+2021 RL Korea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다. Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
 
 ||참가방식|설명|
 |:-:|:-:|-|
@@ -93,13 +94,13 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
  
 - ⏺ [Unity ml-agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/unity_ml-agents_install.md)
 
-- ⏺ [Submission 모델 제출하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/submission.md)
-
 - 1️⃣ [Python API를 사용하여 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_random_agent.md)
 
 - 1️⃣ [Python API를 사용하여 예제 알고리즘 (DQN, A2C)로 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_baseline_dqn_a2c.md)
 
 - 2️⃣ [ml-agents 2.0에서 제공하는 알고리즘을 사용하여 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_ml-agents.md)
+
+- ⏺ [Submission 모델 제출하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/submission.md)
 
 ---
 ## 👥 Operator(Contact)
