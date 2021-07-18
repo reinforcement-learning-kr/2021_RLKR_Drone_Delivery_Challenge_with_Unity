@@ -1,13 +1,13 @@
 #### ➡️ Index
-- [State]()
-    - [Vector Observation]()
-    - [Visual Observation]()
-    - [Raycast]()
-- [Action]()
-- [Reward]()
-    - [Event Reward]()
-    - [Distance Reward]()
-- [Done]()
+- [State](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#state)
+    - [Vector Observation](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#vector-observation)
+    - [Visual Observation](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#visual-observation)
+    - [Raycast](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#raycast)
+- [Action](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#action)
+- [Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#reward)
+    - [Event Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#event-reward)
+    - [Distance Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#distance-reward)
+- [Done](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#done)
 
 ---
 
@@ -16,16 +16,18 @@
 
 ## State
 
-## Vector Observation (size == 16)
+## Vector Observation 
 
-- 배송할 집의 택배 배달 위치의 좌표 (x, y, z)
-    - 배송 상황(짐을 상차한)이 아니면 0, 0, 0
-- agent의 좌표 (x, y, z)
-- agent의 velocity (x, y, z)
-- agent의 angularVelocity (x, y, z)
-- 창고의 좌표 (x, y, z)
-    - 배송 상황(짐을 상차한)이면 0, 0, 0
-- 진행률 (%)
+- size == 16
+
+|info|description|size|
+|-|-|-|
+|배송할 집의 택배 배달 위치의 좌표|(x, y, z), 배송 상황(짐을 상차한)이 아니면 0, 0, 0|3|
+|agent의 좌표|(x, y, z)|3|
+|agent의 velocity|(x, y, z)|3|
+|agent의 angularVelocity|(x, y, z)|3|
+|창고의 좌표|(x, y, z), 배송 상황(짐을 상차한)이면 0, 0, 0|3|
+|진행률 (%)|0~100|1!|
     
 ## Visual Observation
 
@@ -47,7 +49,9 @@
 
     ![vis_obs_left](../images/vis_obs_left.png)
 
-## Raycast (size == 26)
+## Raycast 
+
+(size == 26)
 
 - 30도씩 12 방향
 
@@ -64,10 +68,10 @@
 ## Reward
 
 ### Event reward 
-- + 100
+- `+ 100`
     - 창고 위치에 도달했을때
     - 물품 배송이 완료 되었을때
-- - 100
+- `- 100`
     - 건물 혹은 장애물(ex, 새, 자동차, 가로등, 지면등)에 부딪혔을 때
     - 맵 밖으로 멀리 이동 했을때
 
