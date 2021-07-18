@@ -78,9 +78,16 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 |4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
 |5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
 
-![unity_asset_store](./images/unity_asset_store.png)
+<p align= "left">
+  <img src="./images/unity_asset_store.png" width="400" alt="unity_asset_store" align="left" />
+</p>
+
+
+
+
 
 ---
+
 ## 🚀 Let's START
 
 2021 RL Korea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다. Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
@@ -91,7 +98,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 |2️⃣|ml-agents 2.0|Unity ml-agents 2.0에서 제공하는 PPO, SAC 알고리즘을 이용하는 참가자|
 |⏺|all|모든 참가자에게 해당하는 공통사항|
 
- 
+
 - ⏺ [Unity ml-agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/unity_ml-agents_install.md)
 
 - 1️⃣ [Python API를 사용하여 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_random_agent.md)
