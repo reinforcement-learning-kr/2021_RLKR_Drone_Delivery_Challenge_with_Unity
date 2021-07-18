@@ -70,6 +70,12 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 ### RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
 
+<p align= "left">
+  <img src="./images/unity_asset_store_dark.png" width="300" alt="unity_asset_store" align="left" />
+</p>
+
+
+
 |No.|Assets|Link|
 |---|---|---|
 |1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
@@ -77,15 +83,6 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 |3|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
 |4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
 |5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
-
-<p align= "left">
-  <img src="./images/unity_asset_store.png" width="400" alt="unity_asset_store" align="left" />
-</p>
-
-
-
-
-<br>
 
 
 ---
