@@ -6,8 +6,6 @@
 - 기본적으로 강화학습을 이용한 학습을 지원
 - 다양한 학습 방식 지원
 
-
-
 ## 설치 전 참고사항
 
 ML-Agents는 다음과 같이 유니티와 파이썬에 따로 설치를 할 수 있습니다. 
@@ -43,7 +41,7 @@ ML-Agents는 다음과 같이 유니티와 파이썬에 따로 설치를 할 수
 
 5. `pip install -e ml-agents`와 `pip install -e ml-agents-envs`를 입력하여 설치합니다.
 
-6. Prompt 창에 mlagents-learn `--help`를 입력했을 때, 아래와 같은 message가 prompt 창에 뜬다면 설치가 성공된 것 입니다.
+6. Prompt 창에 mlagents-learn `--help`를 입력했을 때, 아래와 같은 message가 prompt 창에 뜬다면 설치 성공한 것 입니다.
 
     ```
         usage: mlagents-learn [-h] [--env ENV_PATH] [--resume] [--force]
