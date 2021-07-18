@@ -20,7 +20,8 @@ ml-agents에서 제공하는 기본 알고리즘에는 `ppo`, `sac`, `poca`가 �
 - sac: https://arxiv.org/abs/1812.05905
 
 ## Behavior Config
-[Official Behavior Config](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#behavior-configurations)에 자신의 Agent가 실행하는 RL 알고리즘의 파라미터들을 지정할 수 있는 yaml 파일 작성법이 나와있습니다. 앞서 이번 챌린지에서 사용할 수 있는 알고리즘은 ppo, sac가 있음을 알 수 있는데 두 가지 알고리즘 중에 선택한 알고리즘을 `trainer_type`에 작성합니다. config 파일의 `behaviors`의 이름은 **반드시** `My Behavior`라고 적어야 합니다.
+공식 문서 [Behavior Configurations](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#behavior-configurations)에 자신의 Agent가 실행하는 RL 알고리즘의 파라미터들을 지정할 수 있는 yaml 파일 작성법이 나와있습니다. 앞서 이번 챌린지에서 사용할 수 있는 알고리즘은 ppo, sac가 있음을 알 수 있는데 두 가지 알고리즘 중에 선택한 알고리즘을 `trainer_type`에 작성합니다. 
+> config 파일의 `behaviors`의 이름은 **반드시** `My Behavior`라고 적어야 합니다.
 
 ```
 behaviors:
@@ -31,16 +32,35 @@ behaviors:
       ...
 ```
 
-2개의 알고리즘 모두에 해당하는 Config element는 [Common Trainer Configurations](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#common-trainer-configurations)에서 확인하실 수 있습니다.
+2개의 알고리즘 모두에 해당하는 Config element는 [**Common Trainer Configurations**](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#common-trainer-configurations)에서 확인하실 수 있습니다.
 
-하지만 ppo인지, sac인지에 따라 각 알고리즘에 해당하는 Config element도 있습니다. ppo에만 있는 configuration은 [PPO-specific Configurations](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#ppo-specific-configurations)을, sac에만 있는 configuration은 [SAC-specific Configurations](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#sac-specific-configurations)을 참고해주세요.
+하지만 ppo인지, sac인지에 따라 각 알고리즘에 해당하는 Config element도 있습니다. 
+
+ppo에만 있는 configuration은 [**PPO-specific Configurations**](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#ppo-specific-configurations)을, sac에만 있는 configuration은 [**SAC-specific Configurations**](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#sac-specific-configurations)을 참고해주세요.
 
 config 파일을 작성하지 않고 실행할 경우 default config(ppo)가 들어가게 됩니다.
 
 ## Reward Signals
 강화학습에 중요한 Reward 설정 또한 config 파일을 통해 다양하게 시도해볼 수 있습니다. [Reward Signals](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#reward-signals)에 있는 Extrinsic Rewards, Curiosity Intrinsic Reward, GAIL Intrinsic Reward등 다양한 reward design을 해보세요.
 
-> Behavior, Reward 외에도 [Training Configuration File](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#reward-signals)에서 다양한 config element들을 확인하실 수 있습니다.
+(example)
+```
+    reward_signals:
+      # environment reward (default)
+      extrinsic:
+        strength: 1.0
+        gamma: 0.99
+
+      # curiosity module
+      curiosity:
+        strength: 0.02
+        gamma: 0.99
+        encoding_size: 256
+        learning_rate: 3.0e-4
+```
+
+
+Behavior, Reward 외에도 [Training Configuration File](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md#reward-signals)에서 다양한 config element들을 확인하실 수 있습니다.
 
 ---
 # Training 
@@ -92,17 +112,19 @@ mlagents-learn ./drone_config/ppo.yaml --env=./RLVillage --run-id=drone1
 ```
 
 ## 주요 Command option table
-기본 Command에서 소개한 option들을 제외하고 자주 사용하게 될 몇가지 옵션들은 다음과 같습니다. 이외에 더 자세한 설명은 앞서 설명해드린 `mlagents-learn --help`을 통해 확인하거나 공식 문서 [Starting Training](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#starting-training)을 확인하시는 것을 권장해드립니다.
+기본 Command에서 소개한 option들을 제외하고 자주 사용하게 될 몇가지 옵션들은 다음과 같습니다. 
 
-|option|description|
-|-|-|
-|`--resume`|Whether to resume training from a checkpoint. Specify a --run-id to use this option. If set, the training code loads an already trained model to initialize the neural network before resuming training. This option is only valid when the models exist, and have the same behavior names as the current agents in your scene. (default: False)|
-|`--force`|Whether to force-overwrite this run-id's existing summary and model data. (Without this flag, attempting to train a model with a run-id that has been used before will throw an error.) (default: False)|
-|`--inference`|Whether to run in Python inference mode (i.e. no training). Use with --resume to load a model trained with an existing run ID. (default: False)|
-|`--num-envs NUM_ENVS`|The number of concurrent Unity environment instances to collect experiences from when training (default: 1)|
-|`--width WIDTH`|The width of the executable window of the environment(s) in pixels (ignored for editor training). (default: 84) 저희 챌린지 환경에서는 576으로 설정했을 때 잘 보입니다.|
-|`--height HEIGHT`|The height of the executable window of the environment(s) in pixels (ignored for editor training) (default: 84) 저희 챌린지 환경에서는 324으로 설정했을 때 잘 보입니다.|
-|`--no-graphics`|Whether to run the Unity executable in no-graphics mode (i.e. without initializing the graphics driver. Use this only if your agents don't use visual observations. (default: False)|
+이외에 더 자세한 설명은 앞서 설명해드린 `mlagents-learn --help`을 통해 확인하거나 공식 문서 [Starting Training](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#starting-training)을 확인하시는 것을 권장해드립니다.
+
+|option|description|default|
+|-|-|-|
+|`--resume`|Whether to resume training from a checkpoint. Specify a --run-id to use this option. If set, the training code loads an already trained model to initialize the neural network before resuming training. This option is only valid when the models exist, and have the same behavior names as the current agents in your scene. |False|
+|`--force`|Whether to force-overwrite this run-id's existing summary and model data. (Without this flag, attempting to train a model with a run-id that has been used before will throw an error.)|False|
+|`--inference`|Whether to run in Python inference mode (i.e. no training). Use with --resume to load a model trained with an existing run ID. |False|
+|`--num-envs NUM_ENVS`|The number of concurrent Unity environment instances to collect experiences from when training |1|
+|`--width WIDTH`|The width of the executable window of the environment(s) in pixels (ignored for editor training). 챌린지 환경에서는 576으로 설정했을 때 잘 보입니다.|84|
+|`--height HEIGHT`|The height of the executable window of the environment(s) in pixels (ignored for editor training) 챌린지 환경에서는 324으로 설정했을 때 잘 보입니다.|84|
+|`--no-graphics`|Whether to run the Unity executable in no-graphics mode (i.e. without initializing the graphics driver. Use this only if your agents don't use visual observations. |False|
 
 
 # Tensorboard로 학습과정 확인하기
