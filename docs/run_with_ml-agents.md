@@ -25,7 +25,7 @@ ml-agents에서 제공하는 기본 알고리즘에는 `ppo`, `sac`, `poca`가 �
           buffer_size: 256
           learning_rate: 0.0003
           learning_rate_schedule: linear
-
+    
           beta: 0.005
           epsilon: 0.2
           lambd: 0.95
@@ -38,11 +38,11 @@ ml-agents에서 제공하는 기본 알고리즘에는 `ppo`, `sac`, `poca`가 �
           normalize: true
           hidden_units: 128
           num_layers: 2
-
+    
           memory:
             sequence_length: 64
             memory_size: 256
-
+    
         max_steps: 500000
         time_horizon: 1000
         summary_freq: 12000
@@ -50,31 +50,52 @@ ml-agents에서 제공하는 기본 알고리즘에는 `ppo`, `sac`, `poca`가 �
         checkpoint_interval: 50000
         threaded: false
         init_path: null
-
+    
         reward_signals:
           extrinsic:
             gamma: 0.99
             strength: 1.0
     ```
 
-# Training 하기
+# Training 
 
-Command
+### Command
 
 ```
-usage: mlagents-learn.exe [-h] [--env ENV_PATH] [--resume] [--force] [--run-id RUN_ID] [--initialize-from RUN_ID]
+usage: mlagents-learn [-h] [--env ENV_PATH] [--resume] [--force] [--run-id RUN_ID] [--initialize-from RUN_ID]
                           [--seed SEED] [--inference] [--base-port BASE_PORT] [--num-envs NUM_ENVS] [--debug]
                           [--env-args ...] [--torch] [--tensorflow] [--results-dir RESULTS_DIR] [--width WIDTH]
                           [--height HEIGHT] [--quality-level QUALITY_LEVEL] [--time-scale TIME_SCALE]
                           [--target-frame-rate TARGET_FRAME_RATE] [--capture-frame-rate CAPTURE_FRAME_RATE]
                           [--no-graphics] [--torch-device DEVICE]
                           [trainer_config_path]
-s
+```
+
+### 기본 Commmand
+
+```
+mlagents-learn [Trainer_Path] --env=[Env_path] --run_id=[run_id]
+```
+
+- Trainer_Path: 학습 알고리즘 설정 YAML 파일이 위치한 경로 (default: ml-agent/config/)
+- Env_Path: 학습을 실행시킬 환경의 빌드 파일이 위치한 경로
+- Run_Id: 학습된 모델이 저장될 폴더의 이름
+
+### 기본 Command 예시
+
+(프롬프트 경로는 깃허브에서 받은 mlagents 폴더)
+
+```
+mlagents-learn config\ppo\3DBall --env=..\DroneDilivery\DroneDilivery --run-id=drone1
 ```
 
 # Tensorboard로 학습과정 확인하기
 
+프롬프트 상에서 다음의 명령어 입력
+
+```
 tensorboard --logdir results
+```
 
 # 학습된 onnx file로 inference하기
 
@@ -85,4 +106,3 @@ mlagents-learn --env=C:\Users\Jungyeon\Desktop\droneHackaton\windows --resume --
 # Reference
 - [1] [Training Configurations](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md#training-configurations) 
 - [2] [Training Configuration File](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md)
-- []()
