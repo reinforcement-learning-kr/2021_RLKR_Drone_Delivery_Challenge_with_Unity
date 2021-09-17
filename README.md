@@ -1,8 +1,10 @@
 
-
+# !대회 이미지 수정 
+```
 <p align= "center">
-  <img src="./images/cover.png" width="1200" alt="Env" />
+  <img src="./images/cover_rev.png" width="1200" alt="Env" />
 </p>
+```
 
 # 2021 RL Korea Drone Delivery Challenge 
 
@@ -41,7 +43,7 @@
 ## 👋 Join the challenge
 
 대회에 참가하기 위해서는 아래의 참가 신청 양식을 작성해주시면 됩니다.
-
+# !unity에서 받은 링크 넣기
 ☑️ [참가 양식 작성하기]()
 
 대회 기간 동안 소통의 장은 RL Korea Slack의 `#2021 RLKorea Drone Delivery Challenge` 채널을 이용하실 수 있습니다.
@@ -51,9 +53,12 @@
 
 ---
 ## 🏡 About RL Village
+# !현재 빌드된 대회 사진으로 변경
+```
 <p align= "center">
-  <img src="./images/env.png" width="1000" alt="Env" />
+  <img src="./images/env_rev.png" width="1000" alt="Env" />
 </p>
+```
 
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 
@@ -74,8 +79,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
   <img src="./images/unity_asset_store_dark.png" width="300" alt="unity_asset_store" align="left" />
 </p>
 
-
-
+# !마커 에셋까지 추가
 |No.|Assets|Link|
 |---|---|---|
 |1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
@@ -121,6 +125,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 ## 💙 Sponsor
 Thanks to
 
+# !유니티 에이아이 팩토리 로고 
 <p align= "left">
   <img src="./images/support.png" width="300" alt="Env" align="left" />
 </p>
