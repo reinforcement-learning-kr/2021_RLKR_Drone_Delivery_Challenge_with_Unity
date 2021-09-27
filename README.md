@@ -1,16 +1,16 @@
 
 <p align= "center">
-  <img src="./images/main.png" width="1200" alt="Env" />
+  <img src="./images/main.png" />
 </p>
 
-## Now
+## ⏰ NOW
 
 지금은 사전 신청 기간(2021.09.28-2021.10.)입니다. 아래 사전 신청서 링크로 들어가서 작성해주세요!
 
 [![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
 
-## Welcome!
+## Welcome!👋
 
 본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
 ### 🔥 Who will be the coolest drone delivery model?
@@ -46,11 +46,13 @@
 |🎖특별상|TBA|
 
 ---
-## 👋 Join the challenge
+## 👩‍💻 Join the challenge 👨‍💻
 
-대회에 참가하기 위해서는 아래의 **사전 참가 신청서**을 작성해주시면 됩니다.
+대회에 참가하기 위해서는 아래의 **참가 신청서**을 작성해주시면 됩니다.
 
-☑️ [사전 참가 신청서 작성하기](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
+> TBA
+
+☑️ [참가 신청서 작성하기]()
 
 대회 기간 동안 소통의 장은 RL Korea Slack의 `#2021 RLKorea Drone Delivery Challenge` 채널을 이용하실 수 있습니다.
 
@@ -71,7 +73,7 @@ RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 
 
 ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
-### 📦 RL Village 환경 Download
+### 📥 RL Village 환경 Download
 RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
 
 - Windows: [Link](https://www.dropbox.com/s/rjx6k6jcehhds46/windows.zip?dl=0) 
@@ -79,7 +81,7 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 - Linux: [Link](https://www.dropbox.com/s/4j1cnkft5sdn9gc/Linux.zip?dl=0)
 
 
-### RL Village Unity Assets
+### 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
 
 <p align= "left">
@@ -129,9 +131,10 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 - 민규식, 이동민, 이정연, 이정우, 정규열, 차금강 
 
 
-## 💙 Sponsor
+## 💙 Support
+
 Thanks to
 
-<p align= "left">
-  <img src="./images/support.png" width="300" alt="Env" align="left" />
+<p align= "center">
+  <img src="./images/support.png" />
 </p>
