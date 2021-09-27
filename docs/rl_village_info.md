@@ -34,7 +34,7 @@
 ![vis_obs_overview](../images/vis_obs_overview.png)
 
 |Camera|Size(pixel)|Image|
-|-|:-:|:=:|
+|-|:-:|:-:|
 |정면 카메라|(64, 36, 3)|![vis_obs_front](../images/vis_obs_front.png)|
 |우측 카메라|(64, 36, 3)|![vis_obs_right](../images/vis_obs_right.png)|
 |후면 카메라|(64, 36, 3)|![vis_obs_back](../images/vis_obs_back.png)|
