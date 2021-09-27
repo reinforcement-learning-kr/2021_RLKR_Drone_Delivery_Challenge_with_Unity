@@ -30,9 +30,8 @@
 |진행률 (%)|0~100|1|
     
 ### Visual Observation
-<p>
-    <img src="../images/vis_obs_overview.png" width="300" alt="unity_asset_store" align="left" />
-<\p>
+
+<img src="../images/vis_obs_overview.png" width="300" alt="unity_asset_store" align="left" />
 
 |Camera|Size(pixel)|Image|
 |-|:-:|:-:|
