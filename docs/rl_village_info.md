@@ -54,7 +54,9 @@
 (size == 12)
 
 - 60도씩 6 방향
-    방향 마다 2개씩
+    
+    방향 마다 2개씩 (탐지 여부, 탐지 위치와의 )
+    
     ![raycast](../images/raycast.png)
 
 ## Action
