@@ -4,8 +4,10 @@
 </p>
 
 ## Now
-지금은 사전 신청 기간입니다.
 
+지금은 사전 신청 기간(2021.09.28-2021.10.)입니다. 아래 사전 신청서 링크로 들어가서 작성해주세요!
+
+[![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
 
 ## Welcome!
