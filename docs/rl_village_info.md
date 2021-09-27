@@ -30,15 +30,16 @@
 |진행률 (%)|0~100|1|
     
 ### Visual Observation
-
-![vis_obs_overview](../images/vis_obs_overview.png)
+<p>
+    <img src="../images/vis_obs_overview.png" width="300" alt="unity_asset_store" align="left" />
+<\p>
 
 |Camera|Size(pixel)|Image|
 |-|:-:|:-:|
-|정면 카메라|(64, 36, 3)|![vis_obs_front](../images/vis_obs_front.png)|
-|우측 카메라|(64, 36, 3)|![vis_obs_right](../images/vis_obs_right.png)|
-|후면 카메라|(64, 36, 3)|![vis_obs_back](../images/vis_obs_back.png)|
-|좌측 카메라|(64, 36, 3)|![vis_obs_left](../images/vis_obs_left.png)|
+|정면 카메라|(64, 36, 3)|<img src="../images/vis_obs_front.png" width="100" alt="vis_obs_front" align="center" />|
+|우측 카메라|(64, 36, 3)|<img src="../images/vis_obs_right.png" width="100" alt="vis_obs_right" align="center" />|
+|후면 카메라|(64, 36, 3)|<img src="../images/vis_obs_back.png" width="100" alt="vis_obs_back" align="center" />|
+|좌측 카메라|(64, 36, 3)|<img src="../images/vis_obs_left.png" width="100" alt="vis_obs_left" align="center" />|
     
 
 ### Raycast 
