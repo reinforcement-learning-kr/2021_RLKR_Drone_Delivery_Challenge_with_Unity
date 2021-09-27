@@ -1,10 +1,8 @@
 
-# !대회 이미지 수정 
-```
 <p align= "center">
-  <img src="./images/cover_rev.png" width="1200" alt="Env" />
+  <img src="./images/main.png" width="1200" alt="Env" />
 </p>
-```
+
 
 # 2021 RL Korea Drone Delivery Challenge 
 
