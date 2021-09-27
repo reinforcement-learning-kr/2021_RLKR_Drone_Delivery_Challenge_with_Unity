@@ -51,10 +51,10 @@
 
 ## Raycast 
 
-(size == 26)
+(size == 12)
 
-- 30도씩 12 방향
-
+- 60도씩 6 방향
+    방향 마다 2개씩
     ![raycast](../images/raycast.png)
 
 ## Action
