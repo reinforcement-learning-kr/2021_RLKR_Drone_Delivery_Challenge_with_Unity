@@ -4,9 +4,7 @@
 </p>
 
 
-# 2021 RL Korea Drone Delivery Challenge 
-
-## 🤗 Welcome!
+## Welcome!
 
 본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
 ### 🔥 Who will be the coolest drone delivery model?
@@ -21,14 +19,18 @@
 
 ## 📅 Schedule
 
+> TBA
+
 |Date|Event|
 |-|-|
-|**2021.xx.xx**|챌린지 시작 |
+|**2021.11.xx**|챌린지 시작 |
 |**2021.xx.xx**|챌린지 종료 |
 
 
 ## 🏆 Awards
 2021 RLKorea Drone Delivery Challenge의 어워드는 다음과 같습니다.🎉
+
+> TBA
 
 |Grade|Award|
 |-|-|
@@ -40,23 +42,24 @@
 ---
 ## 👋 Join the challenge
 
-대회에 참가하기 위해서는 아래의 참가 신청 양식을 작성해주시면 됩니다.
-# !unity에서 받은 링크 넣기
-☑️ [참가 양식 작성하기]()
+대회에 참가하기 위해서는 아래의 **사전 참가 신청서**을 작성해주시면 됩니다.
+
+☑️ [사전 참가 신청서 작성하기](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
 대회 기간 동안 소통의 장은 RL Korea Slack의 `#2021 RLKorea Drone Delivery Challenge` 채널을 이용하실 수 있습니다.
+
+> TBA
 
 ➡️ [Slack #2021 RLKorea Drone Delivery Challenge 채널 들어가기]()
 
 
 ---
 ## 🏡 About RL Village
-# !현재 빌드된 대회 사진으로 변경
-```
+
 <p align= "center">
-  <img src="./images/env_rev.png" width="1000" alt="Env" />
+  <img src="./images/env.png" width="1000" alt="Env" />
 </p>
-```
+
 
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 
@@ -77,7 +80,6 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
   <img src="./images/unity_asset_store_dark.png" width="300" alt="unity_asset_store" align="left" />
 </p>
 
-# !마커 에셋까지 추가
 |No.|Assets|Link|
 |---|---|---|
 |1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
@@ -85,6 +87,7 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 |3|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
 |4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
 |5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
+|6|marker||
 
 
 ---
@@ -123,7 +126,6 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 ## 💙 Sponsor
 Thanks to
 
-# !유니티 에이아이 팩토리 로고 
 <p align= "left">
   <img src="./images/support.png" width="300" alt="Env" align="left" />
 </p>
