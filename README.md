@@ -67,7 +67,7 @@
 ## 🏡 About RL Village
 
 <p align= "center">
-  <img src="./images/env.png" width="1000" alt="Env" />
+  <img src="./images/rl_village.png" alt="Env" />
 </p>
 
 ```
