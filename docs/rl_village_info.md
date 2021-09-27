@@ -45,7 +45,7 @@
     
 <p>
     <img src="../images/raycast.png" width="500" alt="raycast" align="left" />
-<\p>
+</p>
     
 |Direction|Size|Description|
 |-|:-:|:-|
@@ -67,7 +67,7 @@
 ## Action
 <p>
     <img src="../images/action.png" width="500" alt="action" align="left" />
-<\p>
+</p>
     
 - x 방향 이동 (앞, 뒤) : -1 ~ 1 사이의 연속적인 값
 - z 방향 이동 (좌, 우) : -1 ~ 1 사이의 연속적인 값
@@ -92,7 +92,7 @@
 
 <p>
     <img src="../images/distance_reward.png" width="500" alt="distance_reward" align="left" />
-<\p>
+</p>
     
 ---
 ## Done
