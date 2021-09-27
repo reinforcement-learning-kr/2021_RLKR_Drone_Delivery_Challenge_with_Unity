@@ -95,13 +95,19 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 ---
 ## 🚀 Let's START
 
-2021 RL Korea Drone Delivery Challenge를 시작하기 위해서는 2가지 방법으로 참여할 수 있습니다. Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
+2021 RL Korea Drone Delivery Challenge를 시작하기 위해서는 `2 가지` 방법으로 참여할 수 있습니다. 
+
+Python으로 직접 작성한 RL 알고리즘으로 참여하고 싶으신 분은 1️⃣을, 
+
+unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신 분은 2️⃣를 참고해주세요. 
+
+모든 참가자 분들에게 공통된 사항은 ⏺으로 안내하겠습니다.
 
 ||참가방식|설명|
 |:-:|:-:|-|
 |1️⃣|python API|자신이 직접 python으로 작성한 RL 알고리즘을 이용하는 참가자|
 |2️⃣|ml-agents 2.0|Unity ml-agents 2.0에서 제공하는 PPO, SAC 알고리즘을 이용하는 참가자|
-|⏺|all|모든 참가자에게 해당하는 공통사항|
+|⏺|ALL|모든 참가자에게 해당하는 공통사항|
 
 - ⏺ [Unity ml-agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/unity_ml-agents_install.md)
 
