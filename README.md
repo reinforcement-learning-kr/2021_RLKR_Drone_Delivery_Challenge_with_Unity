@@ -73,7 +73,9 @@
 
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
 
-RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! 
+RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
+
+이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
 
 RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 
