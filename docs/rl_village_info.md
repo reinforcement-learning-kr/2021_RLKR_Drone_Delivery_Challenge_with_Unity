@@ -42,9 +42,9 @@
     
 
 ### Raycast 
-    
-<p>
-    <img src="../images/raycast.png" width="500" alt="raycast" align="left" />
+
+<p align= "left">
+  <img src="../images/raycast.png" width="500" />
 </p>
     
 |Direction|Size|Description|
@@ -65,8 +65,9 @@
 ---
 
 ## Action
-<p>
-    <img src="../images/action.png" width="500" alt="action" align="left" />
+
+<p align= "left">
+  <img src="../images/action.png" width="500"/>
 </p>
     
 - x 방향 이동 (앞, 뒤) : -1 ~ 1 사이의 연속적인 값
@@ -90,8 +91,9 @@
 - 목표 지점과 거리에 따른 보상
     - `현재 Step에서 목표지점과 거리(curDistance) - 이전 Step에서 목표지점과 거리(preDistance)`
 
-<p>
-    <img src="../images/distance_reward.png" width="500" alt="distance_reward" align="left" />
+
+<p align= "left">
+  <img src="../images/distance_reward.png" width="700"/>
 </p>
     
 ---
