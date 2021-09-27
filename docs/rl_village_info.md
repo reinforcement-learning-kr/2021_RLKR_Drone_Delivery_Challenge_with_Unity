@@ -31,7 +31,7 @@
     
 ### Visual Observation
 
-<img src="../images/vis_obs_overview.png" width="500" alt="vis_obs_overview" align="left" />
+<img src="../images/vis_obs_overview.png" width="400" alt="vis_obs_overview" align="left" />
 
 |Camera|Size(pixel)|Image|
 |-|:-:|:-:|
@@ -42,9 +42,11 @@
     
 
 ### Raycast 
-
-<img src="../images/raycast.png" width="500" alt="raycast" align="left" />
-
+    
+<p>
+    <img src="../images/raycast.png" width="500" alt="raycast" align="left" />
+<\p>
+    
 |Direction|Size|Description|
 |-|:-:|:-|
 |수평방향|12|60도씩 6 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
@@ -63,9 +65,10 @@
 ---
 
 ## Action
-
-<img src="../images/action.png" width="500" alt="action" align="left" />
-
+<p>
+    <img src="../images/action.png" width="500" alt="action" align="left" />
+<\p>
+    
 - x 방향 이동 (앞, 뒤) : -1 ~ 1 사이의 연속적인 값
 - z 방향 이동 (좌, 우) : -1 ~ 1 사이의 연속적인 값
 - y 방향 이동 (위, 아래) : -1 ~ 1 사이의 연속적인 값
@@ -87,8 +90,10 @@
 - 목표 지점과 거리에 따른 보상
     - `현재 Step에서 목표지점과 거리(curDistance) - 이전 Step에서 목표지점과 거리(preDistance)`
 
-<img src="../images/distance_reward.png" width="500" alt="distance_reward" align="left" />
-
+<p>
+    <img src="../images/distance_reward.png" width="500" alt="distance_reward" align="left" />
+<\p>
+    
 ---
 ## Done
 
