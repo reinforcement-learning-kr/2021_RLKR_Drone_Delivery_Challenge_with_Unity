@@ -27,7 +27,8 @@
 |agent의 velocity|(x, y, z)|3|
 |agent의 angularVelocity|(x, y, z)|3|
 |창고의 좌표|(x, y, z), 배송 상황(짐을 상차한)이면 0, 0, 0|3|
-|수평방향 RayCast| 60도씩 6방향 
+|수평방향 RayCast| 60도씩 6방향(아래 Raycast 참조) |12|
+|수직방향 RayCast| (아래 Raycast 참조) |2|
 |진행률 (%)|0~100|1!|
     
 ## Visual Observation
