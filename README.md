@@ -62,6 +62,7 @@
 
 ➡️ [Slack #2021 RLKorea Drone Delivery Challenge 채널 들어가기]()
 
+아직 Reinforcement Learning Korea Slack에 가입하지 않으셨다면, [여기](https://join.slack.com/t/rlkorea/shared_invite/zt-6k0rmvv5-N0~l19xAKuXMK~WpcdwYzQ)를 눌러주세요!
 
 ---
 ## 🏡 About RL Village
