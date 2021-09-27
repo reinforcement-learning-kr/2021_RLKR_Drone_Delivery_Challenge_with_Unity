@@ -16,9 +16,9 @@
 
 ## State
 
-## Vector Observation 
+### Vector Observation 
 
-- size == 16
+- Size: 16
 
 |info|description|size|
 |-|-|-|
@@ -29,41 +29,29 @@
 |창고의 좌표|(x, y, z), 배송 상황(짐을 상차한)이면 0, 0, 0|3|
 |진행률 (%)|0~100|1|
     
-## Visual Observation
+### Visual Observation
 
 ![vis_obs_overview](../images/vis_obs_overview.png)
 
-- 정면 카메라 (64, 36, 3)
-
-    ![vis_obs_front](../images/vis_obs_front.png)
-
-- 우측 카메라 (64, 36, 3)
-
-    ![vis_obs_right](../images/vis_obs_right.png)
-
-- 후면 카메라 (64, 36, 3)
-
-    ![vis_obs_back](../images/vis_obs_back.png)
-
-- 좌측 카메라 (64, 36, 3)
-
-    ![vis_obs_left](../images/vis_obs_left.png)
-
-## Raycast 
-
-수평방향 (size == 12)
-
-- 60도씩 6 방향
+|Camera|Size(pixel)|Image|
+|-|:-:|:=:|
+|정면 카메라|(64, 36, 3)|![vis_obs_front](../images/vis_obs_front.png)|
+|우측 카메라|(64, 36, 3)|![vis_obs_right](../images/vis_obs_right.png)|
+|후면 카메라|(64, 36, 3)|![vis_obs_back](../images/vis_obs_back.png)|
+|좌측 카메라|(64, 36, 3)|![vis_obs_left](../images/vis_obs_left.png)|
     
-    방향 마다 2개씩 (탐지 여부, 탐지 위치와의 거리)
-    
-    ![raycast](../images/raycast.png)
-    
-- 수직방향 (size == 2)
 
-    방향 마다 2개씩 (탐지 여부, 탐지 위치와의 거리)
+### Raycast 
+
+![raycast](../images/raycast.png)
+
+|Direction|Size|Description|
+|-|:-:|:-|
+|수평방향|12|60도씩 6 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
+|수직방향|2|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
+
     
-##  정리
+### State 정리
 - dec.obs[0] : 수평방향 RayCast(12)
 - dec.obs[1] : 전방 카메라 (36, 64, 3)
 - dec.obs[2] : 우측 카메라 (36, 64, 3)
@@ -72,6 +60,8 @@
 - dec.obs[5] : VectorObservation(16)
 - dec.obs[6] : 아랫방향 RayCast(2)
 
+---
+
 ## Action
 
 ![action](../images/action.png)
@@ -79,6 +69,8 @@
 - x 방향 이동 (앞, 뒤) : -1 ~ 1 사이의 연속적인 값
 - z 방향 이동 (좌, 우) : -1 ~ 1 사이의 연속적인 값
 - y 방향 이동 (위, 아래) : -1 ~ 1 사이의 연속적인 값
+
+---
 
 ## Reward
 
@@ -98,7 +90,7 @@
 
 - 현재 Step에서 목표지점과 거리(curDistance) - 이전 Step에서 목표지점과 거리(preDistance)
 
-
+---
 ## Done
 
 - 건물 혹은 장애물(ex, 새, 자동차, 가로등, 지면등)에 부딪혔을 때
