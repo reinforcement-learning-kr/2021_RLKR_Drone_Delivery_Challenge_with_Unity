@@ -75,10 +75,10 @@ RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 
 
 ### 📥 RL Village 환경 Download
 RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
-
-- Windows: [Link](https://www.dropbox.com/s/rjx6k6jcehhds46/windows.zip?dl=0) 
-- Mac: [Link](https://www.dropbox.com/s/hv8uwax87in82wh/mac.zip?dl=0)
-- Linux: [Link](https://www.dropbox.com/s/4j1cnkft5sdn9gc/Linux.zip?dl=0)
+> TBA
+- Windows: [Link]() 
+- Mac: [Link]()
+- Linux: [Link]()
 
 
 ### 📦 RL Village Unity Assets
