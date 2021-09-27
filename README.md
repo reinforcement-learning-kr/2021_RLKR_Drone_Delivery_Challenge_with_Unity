@@ -3,6 +3,10 @@
   <img src="./images/main.png" width="1200" alt="Env" />
 </p>
 
+## Now
+지금은 사전 신청 기간입니다.
+
+
 
 ## Welcome!
 
@@ -34,10 +38,10 @@
 
 |Grade|Award|
 |-|-|
-|🥇1st||
-|🥈2nd||
-|🥉3rd||
-|🎖특별상||
+|🥇1st|TBA|
+|🥈2nd|TBA|
+|🥉3rd|TBA|
+|🎖특별상|TBA|
 
 ---
 ## 👋 Join the challenge
