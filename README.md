@@ -12,7 +12,7 @@
 
 ## Welcome!👋
 
-본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 
+본 챌린지는 RL Korea에서 주최하는 2021 RL Korea Drone Delivery Challenge with Unity 입니다. 
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
 
