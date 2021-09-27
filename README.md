@@ -93,9 +93,8 @@ RL Village를 구성하는 Unity Asset 리스트 입니다.
 |5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
 |6|marker||
 
-<p align= "right">
-  <img src="./images/unity_asset_store_dark.png" width="200" alt="unity_asset_store" align="right" />
-</p>
+<img src="./images/unity_asset_store_dark.png" width="300" alt="unity_asset_store" align="right" />
+
 
 ---
 
