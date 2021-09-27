@@ -12,7 +12,12 @@
 
 ## Welcome!👋
 
-본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
+본 챌린지는 RL Korea에서 주최하는 Drone Delivery Challenge입니다. 
+
+본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
+
+다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
+
 ### 🔥 Who will be the coolest drone delivery model?
 
 ---
@@ -66,7 +71,11 @@
 </p>
 
 
-RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
+RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
+
+RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 이 정보들을 잘 활용하여 스마트한 RL 알고리즘을 만들어보세요! 
+
+RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 
 ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
@@ -122,7 +131,9 @@ unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신
 ---
 ## 👥 Operator(Contact)
 
-대회 기간동안 문의사항은 Slack에서 빠르게 답변드리도록 하겠습니다. 이외에 Slack에서 문의하기 어려운 내용은 아래의 메일로 연락을 주시면 감사하겠습니다.
+대회 기간동안 문의사항은 Slack에서 빠르게 답변드리도록 하겠습니다. 
+
+이외에 Slack에서 문의하기 어려운 내용은 아래의 메일로 연락을 주시면 감사하겠습니다.
 
 📧 Contact: rlkorea7@gmail.com
 
