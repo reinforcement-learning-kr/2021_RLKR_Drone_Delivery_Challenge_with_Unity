@@ -70,7 +70,7 @@
   <img src="./images/env.png" width="1000" alt="Env" />
 </p>
 
-
+```
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
 
 RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
@@ -78,8 +78,9 @@ RL Village에는 드론이 얻어야할 많은 정보들이 있습니다.
 이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
 
 RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
+```
 
-✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
+### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
 ### 📥 RL Village 환경 Download
 RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
