@@ -48,6 +48,7 @@
 - Unity 특별상은 순위권 제외한 팀들 중 Python API가 아닌 **ml-agents 2.0 내부 알고리즘(PPO, SAC)** 을 이용하여 최고 성적을 낸 팀에게 수여됩니다.
   - 참여 방법에 대한 안내 [🚀Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-lets-start)를 참고해주세요.
   - 리더보드의 순위와 별개로 **ml-agents 2.0 내부 알고리즘(PPO, SAC)** 를 사용해서 제출한 팀들 중 최고 성적인 팀에게 수여됩니다.
+  - 1st, 2nd, 3rd 상금과 중복 수령 가능합니다.
 
 ---
 ## 👩‍💻 Join the challenge 👨‍💻
