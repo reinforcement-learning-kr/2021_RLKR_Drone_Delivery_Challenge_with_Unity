@@ -38,8 +38,8 @@
 ## 🏆 Awards
 2021 RLKorea Drone Delivery Challenge의 어워드는 다음과 같습니다.🎉
 
-|Grade|Award|
-|-|-:|
+|Rank|Award|
+|:-:|-:|
 |🥇1st|200만원|
 |🥈2nd|100만원|
 |🥉3rd|50만원|
