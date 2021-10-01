@@ -25,7 +25,7 @@
 
 > Click to get to the section you want quickly.
 
-**|** [Schedule](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-awards) **|** [Join the challenge](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-join-the-challenge) **|** [About RL Village](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-operatorcontact) **|** [Sponsor](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge#-sponsor)
+**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Join the challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [About RL Village](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
 
 
 ## 📅 Schedule
