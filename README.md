@@ -42,12 +42,11 @@
 |:-:|-:|
 |🥇1st|200만원|
 |🥈2nd|100만원|
-|🥉3rd|50만원|
-|🎖Unity 특별상|50만원|
-- 1st, 2nd, 3rd Award는 Submission 채점 기준에 따라 리더보드에서 결정됩니다.
+|🎖Unity 특별상|100만원|
+- 1st, 2nd Award는 Submission 채점 기준에 따라 리더보드에서 결정됩니다.
 - Unity 특별상은 순위권 제외한 팀들 중 Python API가 아닌 **ml-agents 2.0 내부 알고리즘(PPO, SAC)** 을 이용하여 최고 성적을 낸 팀에게 수여됩니다.
   - 참여 방법에 대한 안내 [🚀Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-lets-start)를 참고해주세요.
-  - 리더보드의 순위와 별개로 시상하는 상이므로, 1st, 2nd, 3rd 상금과 중복 수령 가능합니다.
+  - 리더보드의 순위와 별개로 시상하는 상이므로, 1st, 2nd 상금과 중복 수령 가능합니다.
 
 ---
 ## 👩‍💻 Join the challenge 👨‍💻
