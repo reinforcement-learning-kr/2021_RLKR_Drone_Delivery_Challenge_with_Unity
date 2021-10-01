@@ -89,9 +89,9 @@ RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있�
 RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
 > TBA
 
-[<img src="./images/windows_button.png" width="200" />](http://naver.com/)
-<img src="./images/mac_button.png" width="200" />
-<img src="./images/linux_button.png" width="200" />
+[<img src="./images/windows_button.png" width="230" />]()
+[<img src="./images/mac_button.png" width="230" />]()
+[<img src="./images/linux_button.png" width="230" />]()
 
 ### 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
