@@ -95,7 +95,7 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 
 ### 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
-<img src="./images/unity_asset_store_dark.png" width="300" alt="unity_asset_store" align="right" />
+<img src="./images/unity_asset_store_dark.png" width="250" alt="unity_asset_store" align="right" />
 
 |No.|Assets|Link|
 |---|---|---|
