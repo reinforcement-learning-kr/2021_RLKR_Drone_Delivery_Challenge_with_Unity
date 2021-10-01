@@ -38,11 +38,12 @@
 ## 🏆 Awards
 2021 RL Korea Drone Delivery Challenge with Unity의 어워드는 다음과 같습니다.🎉
 
-|Rank|Award|
-|:-:|-:|
-|🥇1st|200만원|
-|🥈2nd|100만원|
-|🎖Unity 특별상|100만원|
+|Rank|Award|수령 팀 수|
+|:-:|-:|:-:|
+|🥇1st|200만원|1|
+|🥈2nd|100만원|1|
+|🎖Unity 특별상|50만원|2|
+
 - 1st, 2nd Award는 Submission 채점 기준에 따라 리더보드에서 결정됩니다.
 - Unity 특별상은 순위권 제외한 팀들 중 Python API가 아닌 **ml-agents 2.0 내부 알고리즘(PPO, SAC)** 을 이용하여 최고 성적을 낸 팀에게 수여됩니다.
   - 참여 방법에 대한 안내 [🚀Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-lets-start)를 참고해주세요.
