@@ -5,7 +5,7 @@
 
 ## ⏰ NOW
 
-지금은 사전 신청 기간 `2021.09.27-2021.10.15` 입니다. 아래 사전 신청서 링크로 들어가서 작성해주세요!
+지금은 사전 신청 기간 `2021.10.01-2021.10.15` 입니다. 아래 사전 신청서 링크로 들어가서 작성해주세요!
 
 [![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
@@ -36,7 +36,7 @@
 
 
 ## 🏆 Awards
-2021 RLKorea Drone Delivery Challenge의 어워드는 다음과 같습니다.🎉
+2021 RL Korea Drone Delivery Challenge with Unity의 어워드는 다음과 같습니다.🎉
 
 |Rank|Award|
 |:-:|-:|
