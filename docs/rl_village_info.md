@@ -22,11 +22,10 @@
 
 |info|description|size|
 |-|-|-|
-|배송할 집의 택배 배달 위치의 좌표|(x, y, z), 배송 상황(짐을 상차한)이 아니면 0, 0, 0|3|
+|배송할 집의 택배 배달 위치의 좌표|(x, y, z)|3|
 |agent의 좌표|(x, y, z)|3|
 |agent의 velocity|(x, y, z)|3|
 |agent의 angularVelocity|(x, y, z)|3|
-|창고의 좌표|(x, y, z), 배송 상황(짐을 상차한)이면 0, 0, 0|3|
 |진행률 (%)|0~100|1|
     
 ### Visual Observation
