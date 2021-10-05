@@ -18,7 +18,7 @@
 
 ### Vector Observation 
 
-- Size: 16
+- Size: 13
 
 |info|description|size|
 |-|-|-|
