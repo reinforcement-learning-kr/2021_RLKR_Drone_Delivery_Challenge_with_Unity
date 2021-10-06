@@ -58,8 +58,9 @@
 - dec.obs[2] : 우측 카메라 (36, 64, 3)
 - dec.obs[3] : 후방 카메라 (36, 64, 3)
 - dec.obs[4] : 좌측 카메라 (36, 64, 3)
-- dec.obs[5] : VectorObservation(16)
-- dec.obs[6] : 아랫방향 RayCast(2)
+- dec.obs[5] : 하방 카메라 (36, 64, 3)
+- dec.obs[6] : VectorObservation(16)
+- dec.obs[7] : 아랫방향 RayCast(2)
 
 ---
 
