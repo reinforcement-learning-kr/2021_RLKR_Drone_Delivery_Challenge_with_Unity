@@ -49,14 +49,12 @@
     
     
 ### State 정리
-- dec.obs[0] : 수평방향 RayCast(12)
-- dec.obs[1] : 전방 카메라 (36, 64, 3)
-- dec.obs[2] : 우측 카메라 (36, 64, 3)
-- dec.obs[3] : 후방 카메라 (36, 64, 3)
-- dec.obs[4] : 좌측 카메라 (36, 64, 3)
-- dec.obs[5] : 하방 카메라 (36, 64, 3)
-- dec.obs[6] : VectorObservation(13)
-- dec.obs[7] : 아랫방향 RayCast(2)
+- dec.obs[0] : 전방 카메라 (36, 64, 3)
+- dec.obs[1] : 우측 카메라 (36, 64, 3)
+- dec.obs[2] : 후방 카메라 (36, 64, 3)
+- dec.obs[3] : 좌측 카메라 (36, 64, 3)
+- dec.obs[4] : 하방 카메라 (36, 64, 3)
+- dec.obs[5] : VectorObservation(39)
 
 ---
 
