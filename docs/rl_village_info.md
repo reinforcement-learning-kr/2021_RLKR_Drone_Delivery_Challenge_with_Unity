@@ -27,8 +27,13 @@
 |agent의 velocity|(x, y, z)|3|
 |agent의 angularVelocity|(x, y, z)|3|
 |진행률 (%)|0~100|1|
-|수평방향|12|60도씩 6 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
-|수직방향|2|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
+|수평방향 Raycast|12|60도씩 6 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
+|수직방향 Raycast|2|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
+
+<p align= "left">
+  <img src="../images/raycast.png" width="500" />
+</p>
+    
 
     
 ### Visual Observation
@@ -42,18 +47,6 @@
 |후면 카메라|(64, 36, 3)|<img src="../images/vis_obs_back.png" width="100" alt="vis_obs_back" align="center" />|
 |좌측 카메라|(64, 36, 3)|<img src="../images/vis_obs_left.png" width="100" alt="vis_obs_left" align="center" />|
     
-
-### Raycast 
-
-<p align= "left">
-  <img src="../images/raycast.png" width="500" />
-</p>
-    
-|Direction|Size|Description|
-|-|:-:|:-|
-|수평방향|12|60도씩 6 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
-|수직방향|2|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
-
     
 ### State 정리
 - dec.obs[0] : 수평방향 RayCast(12)
