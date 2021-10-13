@@ -1,17 +1,33 @@
 #### ➡️ Index
-- [State](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#state)
-    - [Vector Observation](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#vector-observation)
-    - [Visual Observation](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#visual-observation)
-    - [Raycast](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#raycast)
-- [Action](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#action)
-- [Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#reward)
-    - [Event Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#event-reward)
-    - [Distance Reward](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#distance-reward)
-- [Done](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md#done)
+- [State](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#state)
+    - [Vector Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#vector-observation)
+    - [Visual Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#visual-observation)
+    - [Raycast](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#raycast)
+- [Action](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#action)
+- [Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#reward)
+    - [Event Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#event-reward)
+    - [Distance Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#distance-reward)
+- [Done](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#done)
+- [Customization]()
+- [RL Village Unity Assets]()
 
 ---
+## 🏡 RL Village Infomation
 
-# RL Village Infomation
+<p align= "center">
+  <img src="../images/rl_village.png" alt="Env" />
+</p>
+
+```
+RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
+
+RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
+
+이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
+
+RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
+```
+
 챌린지의 환경인 RL Village MDP에 대해 소개합니다. 
 
 ## State
@@ -97,4 +113,20 @@
 - 맵 밖으로 멀리 이동 했을때
 - 배송 물품을 모두 배달 완료 되었을때
 
+## Customization
+
+json을 이용하여 수정할 수 있습니다.(근데 이거 ml-agents 내부 알고리즘도 가능한건가)
+
+## 📦 RL Village Unity Assets
+RL Village를 구성하는 Unity Asset 리스트 입니다.
+<img src="../images/unity_asset_store_dark.png" width="250" alt="unity_asset_store" align="right" />
+
+|No.|Assets|Link|
+|---|---|---|
+|1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
+|2|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
+|3|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
+|4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
+|5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
+|6|marker||
 

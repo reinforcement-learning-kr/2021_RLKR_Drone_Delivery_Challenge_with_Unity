@@ -50,13 +50,9 @@
   - 리더보드의 순위와 **별개로** 시상하는 상이므로, 1st, 2nd 상금과 **중복 수령 가능** 합니다.
 
 ---
-## 👩‍💻 Join the challenge 👨‍💻
+## 👩‍💻 Enjoy the Challenge! 👨‍💻
 
-대회에 참가하기 위해서는 아래의 **참가 신청서**을 작성해주시면 됩니다.
-
-> TBA
-
-☑️ [참가 신청서 작성하기]()
+- 
 
 대회 기간 동안 소통의 장은 RL Korea Slack의 `#2021 RLKorea Drone Delivery Challenge` 채널을 이용하실 수 있습니다.
 
@@ -67,21 +63,9 @@
 아직 Reinforcement Learning Korea Slack에 가입하지 않으셨다면, [여기](https://join.slack.com/t/rlkorea/shared_invite/zt-6k0rmvv5-N0~l19xAKuXMK~WpcdwYzQ)를 눌러주세요!
 
 ---
-## 🏡 About RL Village
+## Challenge Environment
 
-<p align= "center">
-  <img src="./images/rl_village.png" alt="Env" />
-</p>
-
-```
-RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
-
-RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
-
-이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
-
-RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
-```
+본 챌린지에서 사용하는 환경은 **RL Village** 이며 Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 정보를 보실 수 있습니다.
 
 ### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
@@ -92,19 +76,6 @@ RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파�
 [<img src="./images/windows_button.png" width="230" />]()
 [<img src="./images/mac_button.png" width="230" />]()
 [<img src="./images/linux_button.png" width="230" />]()
-
-### 📦 RL Village Unity Assets
-RL Village를 구성하는 Unity Asset 리스트 입니다.
-<img src="./images/unity_asset_store_dark.png" width="250" alt="unity_asset_store" align="right" />
-
-|No.|Assets|Link|
-|---|---|---|
-|1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
-|2|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
-|3|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
-|4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
-|5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
-|6|marker||
 
 
 ---
