@@ -25,7 +25,7 @@
 
 > Click to get to the section you want quickly.
 
-**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Join the challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [Challenge Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
+**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Enjoy the Challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [Challenge Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
 
 
 ## 📅 Schedule
@@ -54,21 +54,24 @@
 
 챌린지를 더욱 더 재밌고 효율적으로 즐기기 위한 방법들을 소개합니다. 대회 기간동안 적극적으로 활용해주세요!
 
-### [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
+### ⚪️[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
-에서 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
 - `Documentation문의` : 챌린지 Github에 올라와 있는 docs에 관한 이슈와 문의
 - `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
-### [Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
+### ⚪️[Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
+
+챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
 - `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
-- `Q&A` : 대회를 함께 진행하면서 다른 참여자들과 토론/토의를 하고 싶다면 여기서 Open talk을 해보세요.(주의! 운영진에게 하는 질문은 [Issues]()를 이용해주세요!)
+- `Q&A` : 대회를 함께 진행하면서 다른 참여자들과 토론/토의를 하고 싶다면 여기서 Open talk을 해보세요.(⚠️주의⚠️ **운영진**에게 하는 질문은 [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)를 이용해주세요!)
 - `Show and tell` : 멋진 모델이나 결과물을 중간에 Showing off 하는 것도 좋습니다!
 
 ---
@@ -78,13 +81,13 @@
 
 ### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
-### 📥 RL Village 환경 Download
-RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
-> TBA
+### [TBA] 📥 RL Village 환경 Download
 
-[<img src="./images/windows_button.png" width="230" />]()
-[<img src="./images/mac_button.png" width="230" />]()
-[<img src="./images/linux_button.png" width="230" />]()
+> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
+
+[<img src="./images/windows_button.png" width="190" />]()
+[<img src="./images/mac_button.png" width="190" />]()
+[<img src="./images/linux_button.png" width="190" />]()
 
 
 ---

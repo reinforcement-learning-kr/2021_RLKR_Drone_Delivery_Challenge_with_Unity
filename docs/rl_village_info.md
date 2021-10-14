@@ -1,4 +1,5 @@
 #### ➡️ Index
+- [RL Village 소개 및 구성]()
 - [State](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#state)
     - [Vector Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#vector-observation)
     - [Visual Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#visual-observation)
@@ -12,7 +13,7 @@
 - [RL Village Unity Assets]()
 
 ---
-## 🏡 RL Village Infomation
+## 🏡 RL Village 소개 및 구성
 
 <p align= "center">
   <img src="../images/rl_village.png" alt="Env" />
@@ -21,12 +22,21 @@
 ```
 RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
 
-RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
+RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정보들이 있습니다. 
 
 이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
 
-RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
 ```
+
+- 드론 에이전트가 배송할 집들이 10개가 있으며, 한 에피소드에서 10개의 집들 중 **3개**가 랜덤으로 지정됩니다.
+- 3개의 집들은 에피소드 초기화시 새롭게 지정됩니다.
+- 마을에는 정적 장애물들과 동적 장애물들이 있습니다.
+    - 정적 장애물 : 건물, 나무, 차량 등
+    - 동적 장애물 : 새
+
+![](../images/houses.png)
+
+---
 
 챌린지의 환경인 RL Village MDP에 대해 소개합니다. 
 
@@ -116,6 +126,9 @@ RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있�
 ## Customization
 
 json을 이용하여 수정할 수 있습니다.(근데 이거 ml-agents 내부 알고리즘도 가능한건가)
+
+```
+```
 
 ## 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.

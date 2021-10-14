@@ -9,7 +9,7 @@
 
 ## How to play
 
-1. Drone이 Warehouse에서 해당 Episode에서 배송할 3개 Package들을 모두 싣는다.
+1. 에피소드가 시작되면 Drone이 Warehouse에서 해당 Episode에서 배송할 3개 Package들을 모두 싣게 됩니다.
 
 ![](../images/play1.png)
 
@@ -21,7 +21,7 @@
 
 ![](../images/play3.png)
 
-4. 모든 집에 배달을 완료하면 에피소드 Completed!
+4. 모든 3개의 집들에 배달을 완료하면 에피소드 Completed!
 
 ![](../images/play4.png)
 
