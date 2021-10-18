@@ -68,11 +68,9 @@
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-- `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다.
+- `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
-- `Q&A` : 대회를 함께 진행하면서 다른 참여자들과 토론/토의를 하고 싶다면 여기서 Open talk을 해보세요.(⚠️주의⚠️ **운영진**에게 하는 질문은 [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)를 이용해주세요!)
-- `Show and tell` : 멋진 모델이나 결과물을 중간에 Showing off 하는 것도 좋습니다!
 
 ---
 ## Challenge Environment
