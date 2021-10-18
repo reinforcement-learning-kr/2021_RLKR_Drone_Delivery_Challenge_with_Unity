@@ -1,13 +1,16 @@
-
 <p align= "center">
   <img src="./images/main.png" />
 </p>
 
-## ⏰ NOW
+## 📣 NOW
 
-지금은 사전 신청 기간 `2021.10.01-2021.10.15` 입니다. 아래 사전 신청서 링크로 들어가서 작성해주세요!
+**지금은 점검 기간 입니다.** 
 
-[![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
+앞으로의 Milestone 일정은 다음과 같습니다. 신청해주신 분들에게 이후 Milestone 일정에 대해서는 이메일로 보내드릴 예정입니다.
+
+### Future Milestone
+- 2차 참가 신청 기간
+- 대회 진행
 
 
 ## Welcome!👋
@@ -15,6 +18,8 @@
 본 챌린지는 RL Korea에서 주최하는 2021 RL Korea Drone Delivery Challenge with Unity 입니다. 
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
+
+자세한 대회 시나리오는 [**Challenge Explanation**]()에서 확인해보세요!
 
 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
 
@@ -25,7 +30,7 @@
 
 > Click to get to the section you want quickly.
 
-**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Join the challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [About RL Village](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
+**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Enjoy the Challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [Challenge Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
 
 
 ## 📅 Schedule
@@ -50,61 +55,42 @@
   - 리더보드의 순위와 **별개로** 시상하는 상이므로, 1st, 2nd 상금과 **중복 수령 가능** 합니다.
 
 ---
-## 👩‍💻 Join the challenge 👨‍💻
+## 👩‍💻 Enjoy the Challenge! 👨‍💻
 
-대회에 참가하기 위해서는 아래의 **참가 신청서**을 작성해주시면 됩니다.
+챌린지를 더욱 더 재밌고 효율적으로 즐기기 위한 방법들을 소개합니다. 대회 기간동안 적극적으로 활용해주세요!
 
-> TBA
+### ⚪️[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
-☑️ [참가 신청서 작성하기]()
+챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
 
-대회 기간 동안 소통의 장은 RL Korea Slack의 `#2021 RLKorea Drone Delivery Challenge` 채널을 이용하실 수 있습니다.
+- `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
+- `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
+- `Documentation문의` : 챌린지 Github에 올라와 있는 docs에 관한 이슈와 문의
+- `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
+- `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
-> TBA
+### ⚪️[Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
 
-➡️ [Slack #2021 RLKorea Drone Delivery Challenge 채널 들어가기]()
+챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-아직 Reinforcement Learning Korea Slack에 가입하지 않으셨다면, [여기](https://join.slack.com/t/rlkorea/shared_invite/zt-6k0rmvv5-N0~l19xAKuXMK~WpcdwYzQ)를 눌러주세요!
+- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다.
+- `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
+- `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
 ---
-## 🏡 About RL Village
+## Challenge Environment
 
-<p align= "center">
-  <img src="./images/rl_village.png" alt="Env" />
-</p>
-
-```
-RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 마을입니다. 
-
-RL Village에는 드론이 얻어야할 많은 정보들이 있습니다. 
-
-이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
-
-RL Village에 대한 자세한 정보는 아래의 링크에서 보실 수 있습니다.
-```
+본 챌린지에서 사용하는 환경은 **RL Village** 이며 Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 정보를 보실 수 있습니다.
 
 ### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
-### 📥 RL Village 환경 Download
-RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
-> TBA
+### [TBA] 📥 RL Village 환경 Download
 
-[<img src="./images/windows_button.png" width="230" />]()
-[<img src="./images/mac_button.png" width="230" />]()
-[<img src="./images/linux_button.png" width="230" />]()
+> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
 
-### 📦 RL Village Unity Assets
-RL Village를 구성하는 Unity Asset 리스트 입니다.
-<img src="./images/unity_asset_store_dark.png" width="250" alt="unity_asset_store" align="right" />
-
-|No.|Assets|Link|
-|---|---|---|
-|1|drone|https://assetstore.unity.com/packages/tools/physics/free-pack-117641|
-|2|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115|
-|3|village|https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214|
-|4|sky|https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014|
-|5|bird|https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649|
-|6|marker||
+[<img src="./images/windows_button.png" width="190" />]()
+[<img src="./images/mac_button.png" width="190" />]()
+[<img src="./images/linux_button.png" width="190" />]()
 
 
 ---
