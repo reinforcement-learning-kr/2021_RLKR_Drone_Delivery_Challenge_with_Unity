@@ -19,7 +19,7 @@
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
 
-자세한 대회 시나리오는 [**Challenge Explanation**]()에서 확인해보세요!
+자세한 대회 시나리오는 [**Challenge Explanation**](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)에서 확인해보세요!
 
 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
 
@@ -59,7 +59,7 @@
 
 챌린지를 더욱 더 재밌고 효율적으로 즐기기 위한 방법들을 소개합니다. 대회 기간동안 적극적으로 활용해주세요!
 
-### ⚪️[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
+### 🔴[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
 챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
 
@@ -69,7 +69,7 @@
 - `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
-### ⚪️[Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
+### 🔵[Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
@@ -78,7 +78,7 @@
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
 ---
-## Challenge Environment
+## 🏡 Challenge Environment
 
 본 챌린지에서 사용하는 환경은 **RL Village** 이며 Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 정보를 보실 수 있습니다.
 
