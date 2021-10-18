@@ -5,9 +5,13 @@
 
 ## 📣 NOW
 
-지금은 챌린지 신청 기간 `2021.10.18-2021.10.29` 입니다. 아래 참가 신청서 링크로 들어가서 작성해주세요!
+**지금은 점검 기간 입니다.** 
 
-[![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
+앞으로의 Milestone 일정은 다음과 같습니다. 신청해주신 분들에게 이후 Milestone 일정에 대해서는 이메일로 보내드릴 예정입니다.
+
+### Future Milestone
+- 2차 참가 신청 기간
+- 대회 진행
 
 
 ## Welcome!👋
