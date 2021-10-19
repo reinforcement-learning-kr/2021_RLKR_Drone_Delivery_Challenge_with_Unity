@@ -4,7 +4,7 @@
     - [Vector Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#vector-observation)
         - [Raycast](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#raycast)
     - [Visual Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#visual-observation)
-    - [TOTAL State 정리](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#total-state-%EC%A0%95%EB%A6%AC)
+    - [TOTAL State 정리 (Size)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#total-state-%EC%A0%95%EB%A6%AC-size)
 - [Action](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#action)
 - [Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#reward)
     - [Event Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#event-reward)
@@ -27,7 +27,6 @@ RL Village는 이번 챌린지에서 드론 Agent가 배송을 할 아름다운 
 RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정보들이 있습니다. 
 
 이 정보들을 잘 활용하여 Reinforcement Learning Agent를 만들어보세요! 
-
 ```
 
 - 드론 에이전트가 배송할 집들이 10개가 있으며, 한 에피소드에서 10개의 집들 중 **3개**가 랜덤으로 지정됩니다.
