@@ -6,12 +6,13 @@
 
 **지금은 점검 기간 입니다.** 
 
-앞으로의 Milestone 일정은 다음과 같습니다. 신청해주신 분들에게 이후 Milestone 일정에 대해서는 이메일로 보내드릴 예정입니다.
+앞으로의 Milestone 일정은 다음과 같습니다. 이후 Milestone 일정에 대해서는 신청해주신 분들에게 기재해주신 이메일로 보내드릴 예정입니다.
 
-### Future Milestone
-- 2차 참가 신청 기간
-- 대회 진행
-
+```
+Future Milestone
+- (10월 4째주) 2차 참가 신청 기간
+- (11월) 대회 진행
+```
 
 ## Welcome!👋
 
@@ -30,7 +31,7 @@
 
 > Click to get to the section you want quickly.
 
-**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-awards) **|** [Enjoy the Challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-join-the-challenge-) **|** [Challenge Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-about-rl-village) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/#-support)
+**|** [Schedule](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-schedule) **|** [Awards](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-awards) **|** [Enjoy the Challenge](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-enjoy-the-challenge-) **|** [Challenge Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-challenge-environment) **|** [Let's START](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-lets-start) **|** [Operator(Contact)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-operatorcontact) **|** [Support](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#-support)
 
 
 ## 📅 Schedule
@@ -59,9 +60,15 @@
 
 챌린지를 더욱 더 재밌고 효율적으로 즐기기 위한 방법들을 소개합니다. 대회 기간동안 적극적으로 활용해주세요!
 
+> 이전에 안내해드린 Slack 채널로는 운영하지 **않고** Github으로 통합할 예정입니다.
+
 ### 🔴[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
-챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 
+
+아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! 
+
+label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
@@ -80,7 +87,9 @@
 ---
 ## 🏡 Challenge Environment
 
-본 챌린지에서 사용하는 환경은 **RL Village** 이며 Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 정보를 보실 수 있습니다.
+본 챌린지에서 사용하는 환경은 **RL Village** 입니다. 
+
+Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 정보를 보실 수 있습니다.
 
 ### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
@@ -88,9 +97,9 @@
 
 > RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
 
-[<img src="./images/windows_button.png" width="190" />]()
-[<img src="./images/mac_button.png" width="190" />]()
-[<img src="./images/linux_button.png" width="190" />]()
+[<img src="./images/windows_button.png" width="200" />]()
+[<img src="./images/mac_button.png" width="200" />]()
+[<img src="./images/linux_button.png" width="200" />]()
 
 
 ---
@@ -110,22 +119,22 @@ unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신
 |2️⃣|ml-agents 2.0|Unity ml-agents 2.0에서 제공하는 PPO, SAC 알고리즘을 이용하는 참가자|
 |⏺|ALL|모든 참가자에게 해당하는 공통사항|
 
-- ⏺ [Unity ml-agents 설치하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/unity_ml-agents_install.md)
+- ⏺ [Unity ml-agents 설치하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/unity_ml-agents_install.md)
 
-- 1️⃣ [Python API를 사용하여 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_random_agent.md)
+- 1️⃣ [Python API를 사용하여 랜덤 에이전트로 실행하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/run_with_random_agent.md)
 
-- 1️⃣ [Python API를 사용하여 예제 알고리즘 (DQN, A2C)로 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_baseline_dqn_a2c.md)
+- 1️⃣ [Python API를 사용하여 예제 알고리즘 (DQN, A2C)로 학습하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/run_with_baseline_dqn_a2c.md)
 
-- 2️⃣ [ml-agents 2.0에서 제공하는 알고리즘을 사용하여 학습하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/run_with_ml-agents.md)
+- 2️⃣ [ml-agents 2.0에서 제공하는 알고리즘을 사용하여 학습하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/run_with_ml-agents.md)
 
-- ⏺ [Submission 모델 제출하기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/submission.md)
+- ⏺ [Submission 모델 제출하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/submission.md)
 
 ---
 ## 👥 Operator(Contact)
 
-대회 기간동안 문의사항은 Slack에서 빠르게 답변드리도록 하겠습니다. 
+**대회 기간동안** 문의사항은 [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#issues) 안내를 참고하셔서 글을 써주시면 최대한 빠르게 답변드리도록 하겠습니다. 
 
-이외에 Slack에서 문의하기 어려운 내용은 아래의 메일로 연락을 주시면 감사하겠습니다.
+이외에 **대회 이전** 문의는 아래의 메일로 연락을 주시면 감사하겠습니다.
 
 📧 Contact: rlkorea7@gmail.com
 
