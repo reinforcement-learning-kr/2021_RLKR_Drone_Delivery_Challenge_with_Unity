@@ -48,7 +48,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 |info|description|size|
 |-|-|-|
-|배송할 집의 택배 배달 위치의 좌표|(x, y, z)|3|
+|배송할 집의 택배 배달 위치의 좌표|(x, y, z), (x, y, z), (x, y, z)|9|
 |agent의 좌표|(x, y, z)|3|
 |agent의 velocity|(x, y, z)|3|
 |agent의 angularVelocity|(x, y, z)|3|
