@@ -57,19 +57,19 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |수직방향 Raycast|15도씩 24 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|48|
 |위 아래 Raycast|위 아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|4|
 
-- Horizontal ray
+- **Horizontal ray**
 
 <p align= "left">
   <img src="../images/hori_ray.png" width="300" />
 </p>
 
-- Vertival ray
+- **Vertival ray**
 
 <p align= "left">
   <img src="../images/vertical_ray.png" width="300" />
 </p>
 
-- Top and Bottom ray
+- **Top and Bottom ray**
 
 <p align= "left">
   <img src="../images/top_bottom_ray.png" width="300" />
@@ -141,7 +141,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 ## Customization
 
-json을 이용하여 수정할 수 있습니다.
+아래 경로에 있는 Parameters.json을 이용하여 환경의 요소들을 수정할 수 있습니다.
 
 - **Windows :**   DroneDelivery_Data\StreamingAsset
 
@@ -150,7 +150,7 @@ json을 이용하여 수정할 수 있습니다.
 - **Linux :**  drone_Data\StreamingAssets
 
 ```
-    "basicMaxStep" : 200,
+    	"basicMaxStep" : 200,
 	"easyMaxStep" : 200,
 	"normalMaxStep" : 500,
 	"hardMaxStep" : 1000,
