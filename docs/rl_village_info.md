@@ -169,6 +169,9 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 	"verticalRayDis" : 2,
 }
 ```
+|info|description
+|-|-|
+|basicMaxStep|베이직 난이도의 Max Step|
 
 ## 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
