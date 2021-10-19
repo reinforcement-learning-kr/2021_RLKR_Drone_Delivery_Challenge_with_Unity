@@ -87,6 +87,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |우측 카메라|(64, 36, 3)|<img src="../images/vis_obs_right.png" width="100" alt="vis_obs_right" align="center" />|
 |후면 카메라|(64, 36, 3)|<img src="../images/vis_obs_back.png" width="100" alt="vis_obs_back" align="center" />|
 |좌측 카메라|(64, 36, 3)|<img src="../images/vis_obs_left.png" width="100" alt="vis_obs_left" align="center" />|
+|하방 카메라|(64, 36, 3)|<img src="../images/bottom_camera.png" width="100" alt="vis_obs_left" align="center" />|
     
     
 ### State 정리
