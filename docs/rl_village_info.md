@@ -9,8 +9,9 @@
     - [Event Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#event-reward)
     - [Distance Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#distance-reward)
 - [Done](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#done)
-- [Customization]()
-- [RL Village Unity Assets]()
+- [Customization](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#customization)
+    - [Parameter Table]() 
+- [RL Village Unity Assets](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#-rl-village-unity-assets)
 
 ---
 ## 🏡 RL Village 소개 및 구성
@@ -57,26 +58,11 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |수직방향 Raycast|15도씩 24 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|48|
 |위 아래 Raycast|위 아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|4|
 
-# raycast
+# Raycast
 
-- **Horizontal ray**
-
-<p align= "left">
-  <img src="../images/hori_ray.png" width="300" />
-</p>
-
-- **Vertival ray**
-
-<p align= "left">
-  <img src="../images/vertical_ray.png" width="300" />
-</p>
-
-- **Top and Bottom ray**
-
-<p align= "left">
-  <img src="../images/top_bottom_ray.png" width="300" />
-</p>
-    
+|**Horizontal ray**|**Vertival ray**|**Top and Bottom ray**|
+|-|-|-|
+|<img src="../images/hori_ray.png" width="300" />|<img src="../images/vertical_ray.png" width="300" />|<img src="../images/top_bottom_ray.png" width="300" />|
 
     
 ### Visual Observation
@@ -90,7 +76,6 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |후면 카메라|(64, 36, 3)|<img src="../images/vis_obs_back.png" width="100" alt="vis_obs_back" align="center" />|
 |좌측 카메라|(64, 36, 3)|<img src="../images/vis_obs_left.png" width="100" alt="vis_obs_left" align="center" />|
 |하방 카메라|(64, 36, 3)|<img src="../images/bottom_camera.png" width="100" alt="vis_obs_left" align="center" />|
-    
     
 ### State 정리
 - dec.obs[0] : 전방 카메라 (36, 64, 3)
@@ -142,13 +127,14 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 ## Customization
 
-아래 경로에 있는 Parameters.json을 이용하여 환경의 요소들을 수정할 수 있습니다.
+아래 경로에 있는 `Parameters.json` 파일을 이용하여 원하는 환경의 요소들을 수정할 수 있습니다.
 
-- **Windows :**   DroneDelivery_Data\StreamingAsset
+- **Windows :**   `DroneDelivery_Data\StreamingAsset`
 
-- **Mac :**  Contents\Resources\Data\StreamingAssets
+- **Mac :**  `Contents\Resources\Data\StreamingAssets`
 
-- **Linux :**  drone_Data\StreamingAssets
+- **Linux :**  `drone_Data\StreamingAssets`
+
 
 ```
  {
@@ -171,6 +157,9 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 	"distanceRewardScale": 1
 }
 ```
+
+### Parameter Table
+
 |info|description
 |-|-|
 |basicMaxStep|Basic 난이도의 Max Step|
