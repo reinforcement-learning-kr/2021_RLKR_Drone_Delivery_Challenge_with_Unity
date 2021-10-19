@@ -1,10 +1,10 @@
 #### ➡️ Index
-- Goal
-- Senario
-- Evaluation
-    - 평가 항목 우선순위
-    - Test Environment
-    - Leaderboard
+- [Goal](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#goal)
+- [Senario](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)
+- [Evaluation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)
+    - [평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
+    - [Test Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#test-environment)
+    - [Leaderboard](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#leaderboard)
 ---
 
 # Challenge Explanation
@@ -12,8 +12,6 @@
 ## Goal
 
 본 챌린지에서는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다.
-
----
 
 ## Senario
 
@@ -56,13 +54,15 @@ Submission된 모델들을 평가하는 방식에 대해서 설명합니다. 평
 
 ### Leaderboard
 
+> TBA
+
 리더보드는 Submission된 모델들을 평가한 후 순위가 매겨지고 리더보는 구성은 다음과 같습니다.
 
 - `순위`
 - `팀명`
-- `배달 완료수`: Test Envionment에서 배달 완료한 수
-- `소요 시간`: Test Envionment개에서  
-- `Raw Score`: Test Envionment 10개에서 
+- `배달 완료수`
+- `소요 시간`
+- `Raw Score`
 - `상세정보`: `보기`를 누르면 Test Envrionment 10개 각각에서의 제출된 모델의 퍼포먼스를 볼 수 있음
 
 ```
@@ -70,5 +70,5 @@ Submission된 모델들을 평가하는 방식에 대해서 설명합니다. 평
 ```
 
 #### 리더보드의 각 항목 순위 산출 방식
-- `배달 완료수`: Test Envionment 10개에서 배달 완료한 수의 총합
-- `소요 시간`:
+
+> TBA
