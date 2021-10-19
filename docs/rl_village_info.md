@@ -167,6 +167,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 	"topRayDis": 0.4,
 	"verticalRayCount" : 24,
 	"verticalRayDis" : 2,
+	"distanceRewardScale": 1
 }
 ```
 |info|description
@@ -185,6 +186,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |topRayDis|윗 방향 레이 길이|
 |verticalRayCount|수직 방향 레이 갯수|
 |verticalRayDis|수평 방향 레이 길이|
+|distanceRewardScale|거리 보상 스케일 조정|
 
 ## 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
