@@ -143,7 +143,29 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 json을 이용하여 수정할 수 있습니다.
 
+- **Windows :**   DroneDelivery_Data\StreamingAsset
+
+- **Mac :**  Contents\Resources\Data\StreamingAssets
+
+- **Linux :**  drone_Data\StreamingAssets
+
 ```
+    "basicMaxStep" : 200,
+	"easyMaxStep" : 200,
+	"normalMaxStep" : 500,
+	"hardMaxStep" : 1000,
+	"reward" : 100,
+	"penalty" : -100,
+	"horiRayCount" : 12,
+	"horiRayDis" : 2,
+	"bottomRayDis": 0.4,
+	"dropOffDistance": 1,
+	"wareHouseDistance" : 1.5,
+	"movableRange": 40,
+	"defaultObsSize" : 10,
+	"topRayDis": 0.4,
+	"verticalRayCount" : 24,
+	"verticalRayDis" : 2,
 ```
 
 ## 📦 RL Village Unity Assets
