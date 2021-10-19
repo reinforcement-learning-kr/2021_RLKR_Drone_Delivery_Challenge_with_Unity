@@ -44,7 +44,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 ### Vector Observation 
 
-- Size: 39
+- Size: 95
 
 |info|description|size|
 |-|-|-|
@@ -53,9 +53,9 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |agent의 velocity|(x, y, z)|3|
 |agent의 angularVelocity|(x, y, z)|3|
 |진행률 (%)|0~100|1|
-|수평방향 Raycast|12|30도씩 12 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
-|수직방향 Raycast|24|15도씩 24 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
-|위 아래 Raycast|2|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
+|수평방향 Raycast|24|30도씩 12 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
+|수직방향 Raycast|48|15도씩 24 방향, 각 방향 마다 2개씩 정보 - (1)탐지 여부 (2)탐지 위치와의 거리|
+|위 아래 Raycast|4|아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|
 
 <p align= "left">
   <img src="../images/raycast.png" width="500" />
