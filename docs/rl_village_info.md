@@ -4,7 +4,7 @@
     - [Vector Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#vector-observation)
         - [Raycast](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#raycast)
     - [Visual Observation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#visual-observation)
-    - [TOTAL State 정리](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#state-%EC%A0%95%EB%A6%AC)
+    - [TOTAL State 정리](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#total-state-%EC%A0%95%EB%A6%AC)
 - [Action](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#action)
 - [Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#reward)
     - [Event Reward](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#event-reward)
@@ -68,7 +68,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
     
 ### Visual Observation
 
-<img src="../images/vis_obs_overview.png" width="400" alt="vis_obs_overview" align="left" />
+<img src="../images/vis_obs_overview.png" width="500" alt="vis_obs_overview" align="left" />
 
 |Camera|Size(pixel)|Image|
 |-|:-:|:-:|
@@ -78,12 +78,12 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |좌측 카메라|(64, 36, 3)|<img src="../images/vis_obs_left.png" width="100" alt="vis_obs_left" align="center" />|
 |하방 카메라|(64, 36, 3)|<img src="../images/bottom_camera.png" width="100" alt="vis_obs_left" align="center" />|
     
-### TOTAL State 정리
-- `dec.obs[0]` : 전방 카메라 (36, 64, 3)
-- `dec.obs[1]` : 우측 카메라 (36, 64, 3)
-- `dec.obs[2]` : 후방 카메라 (36, 64, 3)
-- `dec.obs[3]` : 좌측 카메라 (36, 64, 3)
-- `dec.obs[4]` : 하방 카메라 (36, 64, 3)
+### TOTAL State 정리 ()
+- `dec.obs[0]` : VisualObservation - 전방 카메라 (36, 64, 3)
+- `dec.obs[1]` : VisualObservation - 우측 카메라 (36, 64, 3)
+- `dec.obs[2]` : VisualObservation - 후방 카메라 (36, 64, 3)
+- `dec.obs[3]` : VisualObservation - 좌측 카메라 (36, 64, 3)
+- `dec.obs[4]` : VisualObservation - 하방 카메라 (36, 64, 3)
 - `dec.obs[5]` : VectorObservation(95)
 
 ---
