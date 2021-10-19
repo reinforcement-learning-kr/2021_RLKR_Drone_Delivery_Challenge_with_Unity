@@ -60,10 +60,9 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 
 ### Raycast
 
-|**Horizontal ray**|**Vertival ray**|**Top and Bottom ray**|
+|**수평방향 Ray**|**수직방향 Ray**|**위 아래 Ray**|
 |-|-|-|
 |<img src="../images/hori_ray.png" width="300" />|<img src="../images/vertical_ray.png" width="300" />|<img src="../images/top_bottom_ray.png" width="300" />|
-
     
 ### Visual Observation
 
