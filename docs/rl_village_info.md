@@ -171,7 +171,20 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 ```
 |info|description
 |-|-|
-|basicMaxStep|베이직 난이도의 Max Step|
+|basicMaxStep|Basic 난이도의 Max Step|
+|easyMaxStep|Easy 난이도의 Max Step|
+|normalMaxStep|Normal 난이도의 Max Step|
+|hardMaxStep|Hard 난이도의 Max Step|
+|reward|배송 완료시 보상|
+|penalty|환경과 충돌시의 패널티|
+|horiRayCount|수평 방향 레이 갯수|
+|horiRayDis|수평 방향 레이 길이|
+|bottomRayDis|아랫 방향 레이 길이|
+|dropOffDistance|배달 완료 판정 길이|
+|movableRange|맵 중심으로 부터 움직일 수 있는 최대 거리(이 거리를 넘어가면 에피소드 강제 종료)|
+|topRayDis|윗 방향 레이 길이|
+|verticalRayCount|수직 방향 레이 갯수|
+|verticalRayDis|수평 방향 레이 길이|
 
 ## 📦 RL Village Unity Assets
 RL Village를 구성하는 Unity Asset 리스트 입니다.
