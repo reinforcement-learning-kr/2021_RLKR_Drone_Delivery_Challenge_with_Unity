@@ -98,7 +98,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 - dec.obs[2] : 후방 카메라 (36, 64, 3)
 - dec.obs[3] : 좌측 카메라 (36, 64, 3)
 - dec.obs[4] : 하방 카메라 (36, 64, 3)
-- dec.obs[5] : VectorObservation(39)
+- dec.obs[5] : VectorObservation(95)
 
 ---
 
