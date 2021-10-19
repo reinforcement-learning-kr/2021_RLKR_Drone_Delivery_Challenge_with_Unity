@@ -150,7 +150,8 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 - **Linux :**  drone_Data\StreamingAssets
 
 ```
-    	"basicMaxStep" : 200,
+ {
+ 	"basicMaxStep" : 200,
 	"easyMaxStep" : 200,
 	"normalMaxStep" : 500,
 	"hardMaxStep" : 1000,
@@ -166,6 +167,7 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 	"topRayDis": 0.4,
 	"verticalRayCount" : 24,
 	"verticalRayDis" : 2,
+}
 ```
 
 ## 📦 RL Village Unity Assets
