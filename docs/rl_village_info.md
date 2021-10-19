@@ -58,7 +58,13 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 |위 아래 Raycast|위 아래 방향, (1)탐지 여부 (2)탐지 위치와의 거리|4|
 
 <p align= "left">
-  <img src="../images/raycast.png" width="500" />
+  <img src="../images/hori_ray.png" width="500" />
+</p>
+<p align= "left">
+  <img src="../images/vertical_ray.png" width="500" />
+</p>
+<p align= "left">
+  <img src="../images/top_bottom_ray.png" width="500" />
 </p>
     
 
