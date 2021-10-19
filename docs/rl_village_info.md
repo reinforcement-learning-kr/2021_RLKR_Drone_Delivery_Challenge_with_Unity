@@ -60,19 +60,19 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 - Horizontal ray
 
 <p align= "left">
-  <img src="../images/hori_ray.png" width="500" />
+  <img src="../images/hori_ray.png" width="300" />
 </p>
 
 - Vertival ray
-- 
+
 <p align= "left">
-  <img src="../images/vertical_ray.png" width="500" />
+  <img src="../images/vertical_ray.png" width="300" />
 </p>
 
 - Top and Bottom ray
 
 <p align= "left">
-  <img src="../images/top_bottom_ray.png" width="500" />
+  <img src="../images/top_bottom_ray.png" width="300" />
 </p>
     
 
