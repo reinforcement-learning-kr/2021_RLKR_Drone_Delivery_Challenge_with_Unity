@@ -2,7 +2,7 @@
 - [Goal](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#goal)
 - [Senario](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)
 - [Evaluation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)
-    - [⭐️ 평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
+    - [⭐️ 평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%EF%B8%8F-%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
     - [Test Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#test-environment)
     - [Leaderboard](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#leaderboard)
 ---
