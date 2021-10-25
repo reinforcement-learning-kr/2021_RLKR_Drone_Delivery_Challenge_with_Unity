@@ -125,7 +125,7 @@ unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신
 
 - 2️⃣ [ml-agents 2.0에서 제공하는 알고리즘을 사용하여 학습하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/run_with_ml-agents.md)
 
-- ⏺ [Submission 모델 제출하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/submission.md)
+- ⏺ [학습된 모델 제출하기](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/submission.md)
 
 ---
 ## 👥 Operator(Contact)
