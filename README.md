@@ -2,17 +2,13 @@
   <img src="./images/main.png" />
 </p>
 
-## 📣 NOW
+## 📣 NOW : 2차 참가신청(10.25-10.29)
 
-**지금은 점검 기간 입니다.** 
+**지금은 2차 참가신청 기간 입니다.** 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 를 확인해보세요!👀
 
-앞으로의 Milestone 일정은 다음과 같습니다. 이후 Milestone 일정에 대해서는 신청해주신 분들에게 기재해주신 이메일로 보내드릴 예정입니다.
+> 지난 사전 참가신청을 작성하신 분들은 다시 작성하시지 않으셔도 됩니다.
 
-```
-Future Milestone
-- (10월 4째주) 2차 참가 신청 기간
-- (11월) 대회 진행
-```
+[![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
 ## Welcome!👋
 
@@ -20,9 +16,11 @@ Future Milestone
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
 
-자세한 대회 시나리오는 [**Challenge Explanation**](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)에서 확인해보세요!
+📍 자세한 대회 안내는 [**Challenge Explanation**](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)에서 확인해보세요! 
 
-다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다. 
+[대회 시나리오](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)와 [모델 평가 기준(Evaluation)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)을 확인하실 수 있습니다.
+
+다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다.
 
 ### 🔥 Who will be the coolest drone delivery model?
 
@@ -68,7 +66,7 @@ Future Milestone
 
 아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! 
 
-label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+> label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
@@ -80,7 +78,7 @@ label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다.
+- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 를 확인해보세요.
 - `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
@@ -93,9 +91,9 @@ Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 �
 
 ### ✔️ [RL Village 환경 관련 정보 살펴보기](https://github.com/reinforcement-learning-kr/rlkorea_drone_challenge/blob/master/docs/rl_village_info.md)
 
-### [TBA] 📥 RL Village 환경 Download
+### [11월 1일 공개] 📥 RL Village 환경 Download
 
-> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요.
+> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. **리눅스 서버 버젼의 환경파일은 제공하지 않습니다.**
 
 [<img src="./images/windows_button.png" width="200" />]()
 [<img src="./images/mac_button.png" width="200" />]()
@@ -132,9 +130,9 @@ unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신
 ---
 ## 👥 Operator(Contact)
 
-**대회 기간동안** 문의사항은 [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#issues) 안내를 참고하셔서 글을 써주시면 최대한 빠르게 답변드리도록 하겠습니다. 
+**대회 기간동안** 문의사항은 [Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity#issues) 안내를 참고하셔서 글을 써주시면 최대한 빠르게 답변드리도록 하겠습니다. 많은 분들이 궁금해하실 문의에 대해서는 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 에 정리해놓았습니다. 문의 전에 한번 확인해보시길 권장해드립니다. 
 
-이외에 **대회 이전** 문의는 아래의 메일로 연락을 주시면 감사하겠습니다.
+이외에 대회 문의는 아래의 메일로 연락을 주시면 최대한 빠르게 답변해드리겠습니다.
 
 📧 Contact: rlkorea7@gmail.com
 
