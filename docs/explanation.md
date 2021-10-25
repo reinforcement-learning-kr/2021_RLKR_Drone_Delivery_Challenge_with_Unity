@@ -2,7 +2,7 @@
 - [Goal](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#goal)
 - [Senario](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)
 - [Evaluation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)
-    - [평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
+    - [⭐️ 평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
     - [Test Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#test-environment)
     - [Leaderboard](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#leaderboard)
 ---
@@ -39,9 +39,9 @@ Submission된 모델들을 평가하는 방식에 대해서 설명합니다.
 
 평가방식은 평가항목별 우선순위가 존재하며 우선순위부터 비교하며 순위가 정해집니다.
 
-### 평가 항목 우선순위
-1. 배달 완료 수: 10개의 Test Environment에서 배달완료 된 총합(모든 배달을 완료했을 경우 30 = 10X3)
-2. 소요 시간: 10개의 Test Environment 각각에서 측정된 time1,time2,time3의 평균(30개의 time 평균)
+### ⭐️ 평가 항목 우선순위
+1. `배달 완료 수`: 10개의 Test Environment에서 배달완료 된 총합(모든 배달을 완료했을 경우, 30 = 10X3)
+2. `소요 시간`: 10개의 Test Environment 각각에서 측정된 time1,time2,time3의 평균(30개의 time 평균)
 
 위의 `배달 완료 수`와 `소요 시간`을 기반으로 순위가 매겨지며, `배달 완료 수`를 우선으로 등수가 매겨지고 같은 `배달 완료 수`일 경우, `소요 시간`을 기반으로 순위가 매겨집니다.
 
@@ -50,19 +50,19 @@ Submission된 모델들을 평가하는 방식에 대해서 설명합니다.
 배달할 집들이 **서로 다른** 10개의 Test Environment가 되며 각 Test Environment에서 모델은 1번만 inferening 됩니다. 예시 Test Environment의 예시는 다음과 같습니다.
 
 ```
-- test no.1 : 1,3,4 집 배달
-- test no.2 : 3,7,8 집 배달
+- Test Environment no.1 : 1,3,4 집 배달
+- Test Environment no.2 : 3,7,8 집 배달
 - ...
-- test no.10 : 3,6,9 집 배달
+- Test Environment no.10 : 3,6,9 집 배달
 ```
 
 ![](../images/metric1.png)
 
 각 Test Environment 10개에서 모델은 1번씩만 inferencing을 실행하게 되며, 모델이 평가된 후 산출 되는 값은 다음과 같습니다.
 
-- `배달 완료수`: 각 Test Environment 1개에는 배송지 3개가 있으며 Agent가 배달한 총 배달 완료수 입니다. 10개의 inferening 결과에서 배달 완료한 모든 수의 총합(Sum)입니다. 
+- `배달 완료수`: 각 Test Environment 1개에는 배송지 3개가 있으며 Agent가 배달한 총 배달 완료수 입니다. 10개의 inferening 결과에서 배달 완료한 모든 수의 **총합(Sum)** 입니다. 
 
-- `소요 시간`: 한 Test Environment에서 배달을 수행하면서 소요시간을 총 3번 측정하게 됩니다. 창고-배달지1(time1), 배달지1-배달지2(time2), 배달지2-배달지3(time3)로 총 3개의 time이 한번의 inferening 과정에서 측정되며 time1,2,3의 평균값(Mean)이 해당 inferening에서 측정된 소요시간으로 기록됩니다.
+- `소요 시간`: 한 Test Environment에서 배달을 수행하면서 소요시간을 총 3번 측정하게 됩니다. 창고-배달지1(`time1`), 배달지1-배달지2(`time2`), 배달지2-배달지3(`time3`)로 총 3개의 time이 한번의 inferening 과정에서 측정되며 time1,2,3의 **평균값(Mean)** 이 해당 inferening에서 측정된 소요시간으로 기록됩니다.
 
 > 배달지 3개에 대한 넘버링은 환경에서 주어지는 것이 아닙니다. 배달지1, 배달지2, 배달지3의 넘버링은 배달완료 수순으로 결정됩니다.
 
