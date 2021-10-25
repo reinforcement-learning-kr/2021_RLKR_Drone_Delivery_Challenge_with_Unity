@@ -6,6 +6,8 @@
 
 **지금은 2차 참가신청 기간 입니다.** 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 를 확인해보세요!👀
 
+> 지난 사전 참가신청을 작성하신 분들은 다시 작성하시지 않으셔도 됩니다.
+
 [![](./images/button.png)](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_3ruLbftc809bXoy)
 
 ## Welcome!👋
