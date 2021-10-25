@@ -19,7 +19,7 @@
 
 ![](../images/play1.png)
 
-2. 각 Package는 배달 될 House가 있고 이는 [10개 집들](https://github.com/curieuxjy/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#-rl-village-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EA%B5%AC%EC%84%B1) 중 랜덤으로 3개가 선정된다. 따라서 총 3개의 집으로 Drone Agent가 도착해야 합니다. 
+2. 각 Package는 배달 될 House가 있고 이는 [10개 집들](https://github.com/curieuxjy/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md#-rl-village-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EA%B5%AC%EC%84%B1) 중 랜덤으로 3개가 선정됩니다. 따라서 총 3개의 집으로 Drone Agent가 도착해야 합니다. 
 
 ![](../images/play2.png)
 
