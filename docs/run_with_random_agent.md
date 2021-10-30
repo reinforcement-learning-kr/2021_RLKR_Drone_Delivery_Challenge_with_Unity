@@ -31,14 +31,13 @@ import numpy as np
 
 > 챌린지 환경인 RL Village에 대한 더 자세한 정보는 [RL Village Infomation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/rl_village_info.md)를 참고해주세요!
 
-- Observation: 7개의 관측 데이터 
-  1. 벡터 관측
-  2. 정면 이미지
-  3. 오른쪽 이미지
-  4. 뒤쪽 이미지
-  5. 왼쪽 이미지
-  6. 측면 raycast
-  7. 아래쪽 raycast
+- Observation: 6개의 관측 데이터 
+  1. 정면 이미지
+  2. 오른쪽 이미지
+  3. 뒤쪽 이미지
+  4. 왼쪽 이미지
+  5. 아래쪽 이미지
+  6. 벡터 관측
 - Action: 3개의 continuous 벡터 (range: -1 ~ 1 float)
 
 ## 환경 정의 및 설정
@@ -65,11 +64,11 @@ if __name__ == '__main__':
 ```python
     # behavior 이름 불러오기 및 timescale 설정
     behavior_name = list(env.behavior_specs)[0]
-    engine_configuration_channel.set_configuration_parameters(time_scale=10)
+    engine_configuration_channel.set_configuration_parameters(time_scale=1)
 ```
 ### Description
-- `engine_configuration_channel`의  `set_configuration_parameters`로 `time_scale`을 10으로 설정
-  - 10프레임 마다 한 번씩 화면 업데이트
+- `engine_configuration_channel`의  `set_configuration_parameters`로 `time_scale`을 1로 설정
+  - 1프레임 마다 한 번씩 화면 업데이트
 
 ## 전체 진행을 위한 Loop
 ### Code
@@ -115,9 +114,9 @@ if __name__ == '__main__':
             reward = terminal_steps.reward[0] if done else decision_steps.reward[0]
 
             if done:
-                next_state = [terminal_steps.obs[i][0] for i in range(7)]
+                next_state = [terminal_steps.obs[i][0] for i in range(6)]
             else:
-                next_state = [decision_steps.obs[i][0] for i in range(7)]
+                next_state = [decision_steps.obs[i][0] for i in range(6)]
 
             # 매 스텝 보상을 에피소드에 대한 누적보상에 더해줌 
             ep_rewards += reward 
@@ -159,7 +158,7 @@ if __name__ == '__main__':
 
     # behavior 이름 불러오기 및 timescale 설정
     behavior_name = list(env.behavior_specs)[0]
-    engine_configuration_channel.set_configuration_parameters(time_scale=10)
+    engine_configuration_channel.set_configuration_parameters(time_scale=1)
 
     # 전체 진행을 위한 반복문 (10 에피소드 반복)
     for ep in range(10):
@@ -193,9 +192,9 @@ if __name__ == '__main__':
             reward = terminal_steps.reward[0] if done else decision_steps.reward[0]
 
             if done:
-                next_state = [terminal_steps.obs[i][0] for i in range(7)]
+                next_state = [terminal_steps.obs[i][0] for i in range(6)]
             else:
-                next_state = [decision_steps.obs[i][0] for i in range(7)]
+                next_state = [decision_steps.obs[i][0] for i in range(6)]
 
             # 매 스텝 보상을 에피소드에 대한 누적보상에 더해줌 
             ep_rewards += reward 
