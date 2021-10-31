@@ -56,9 +56,7 @@
 
 > 이전에 안내해드린 Slack 채널로는 운영하지 **않고** Github으로 통합할 예정입니다.
 
-### FAQ
-
-**챌린지에 관해 자주 나오는 질의응답은 [FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)에 정리되어 있으니 한번 확인해보세요!**
+### **챌린지에 관해 자주 나오는 질의응답은 [FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)에 정리되어 있으니 한번 확인해보세요!**
 
 ### Issues
 
