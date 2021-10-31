@@ -80,7 +80,8 @@
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. [RL Korea Facebook](https://www.facebook.com/groups/ReinforcementLearningKR)에도 같은 공지가 게시되오니, Facebook 알림으로도 소식을 받아보세요!
+- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. 
+    - [RL Korea Facebook](https://www.facebook.com/groups/ReinforcementLearningKR)에도 같은 공지가 게시되오니, Facebook 알림으로도 소식을 받아보세요!
 - `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
