@@ -18,7 +18,7 @@
 
 ### 🔥 Who will be the coolest drone delivery model?
 
-[](http://aifactory.space/competition/leaderboard/1893)
+### [리더보드](http://aifactory.space/competition/leaderboard/1893)
 
 ---
 ## ➡️ Index
@@ -70,7 +70,7 @@
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
-- `Docs문의` : 챌린지 Github에 올라와 있는 [docs]()에 관한 이슈와 문의
+- `Docs문의` : 챌린지 Github에 올라와 있는 [docs](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/tree/master/docs)에 관한 이슈와 문의
 - `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
@@ -80,7 +80,7 @@
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 를 확인해보세요.
+- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. [RL Korea Facebook](https://www.facebook.com/groups/ReinforcementLearningKR)에도 같은 공지가 게시되오니, Facebook 알림으로도 소식을 받아보세요!
 - `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
