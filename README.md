@@ -96,7 +96,9 @@ Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 �
 
 ### [11월 1일 공개] 📥 RL Village 환경 Download
 
-> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. **리눅스 서버 버젼의 환경파일은 제공하지 않습니다.**
+> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. 
+>  
+> **리눅스 서버 버젼의 환경파일은 그래픽 장치가 있는 서버이어야 이미지 정보를 읽어서 학습할 수 있으니 주의하시기 바랍니다.**
 
 [<img src="./images/windows_button.png" width="200" />]()
 [<img src="./images/mac_button.png" width="200" />]()
