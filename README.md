@@ -2,21 +2,23 @@
   <img src="./images/main.png" />
 </p>
 
-## 📣 Now : 점검 기간 입니다.
-
 ## Welcome!👋
 
 본 챌린지는 RL Korea에서 주최하는 2021 RL Korea Drone Delivery Challenge with Unity 입니다. 
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
 
-📍 자세한 대회 안내는 [**Challenge Explanation**](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)에서 확인해보세요! 
+✅ 자세한 대회 안내는 아래 **챌린지 살펴보기 버튼**을 눌러 확인해보세요! 
 
-[대회 시나리오](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)와 [모델 평가 기준(Evaluation)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)을 확인하실 수 있습니다.
+[![](./images/explanation_button.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)
+
+> [대회 시나리오](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#senario)와 [모델 평가 기준(Evaluation)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)을 확인하실 수 있습니다.
 
 다양한 강화학습 알고리즘들을 한번 시도해보고, 혹시 강화학습이 처음이시더라도 이번 챌린지에서 도전해보시면서 강화학습의 매력을 경험해 볼 수 있는 좋은 기회가 되시길 바랍니다.
 
 ### 🔥 Who will be the coolest drone delivery model?
+
+✅ 리더보드는 모델 제출이 가능한 `11월 8일`부터 Open 됩니다.
 
 ---
 ## ➡️ Index
@@ -30,8 +32,9 @@
 |Date|Event|
 |-|-|
 |**2021.11.01**|챌린지 시작 START|
+|**2021.11.08**|모델 Submission START|
 |**2021.11.30**|챌린지 종료 END|
-
+> 모든 스케쥴은 해당 당일 오전 12시(0시)시작을 기준으로 합니다.
 
 ## 🏆 Awards
 2021 RL Korea Drone Delivery Challenge with Unity의 어워드는 다음과 같습니다.🎉
@@ -54,25 +57,32 @@
 
 > 이전에 안내해드린 Slack 채널로는 운영하지 **않고** Github으로 통합할 예정입니다.
 
-### 🔴[Issues](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
+### **챌린지에 관해 자주 나오는 질의응답은 [FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)에 정리되어 있으니 한번 확인해보세요!**
 
-챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 
+### Issues
+✅ **Issues 버튼**을 눌러 문의 사항을 남겨보세요! 
+[![](./images/issues.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
-아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! 
+```
+아래 각 이슈에 대한 설명을 읽어보시고 해당하는 Issue Template를 활용하여 문의사항을 적어주세요. 
 
-> label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+최대한 빠른 시간안에 답변드릴 수 있도록 노력하겠습니다!
+```
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
-- `Documentation문의` : 챌린지 Github에 올라와 있는 docs에 관한 이슈와 문의
+- `Docs문의` : 챌린지 Github에 올라와 있는 [docs](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/tree/master/docs)에 관한 이슈와 문의
 - `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
-### 🔵[Discussions](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
+### Discussions
+✅ **Discussions 버튼**을 눌러 자유롭게 글을 남겨보세요! 
+[![](./images/discussions.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
 
-- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. 챌린지 **[FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)** 를 확인해보세요.
+- `Announcements` : 대회 기간에 중요한 일정이나 공지를 운영진측에서 올릴 때 쓰는 카테고리 입니다. 
+    - [RL Korea Facebook](https://www.facebook.com/groups/ReinforcementLearningKR)에도 같은 공지가 게시되오니, Facebook 알림으로도 소식을 받아보세요!
 - `General` : 대회에 참가한 모든 분들과 인사를 나눠주세요! 네트워킹도 편하게 즐겨주시는 라운지같은 공간입니다.
 - `Ideas` : 재밌는 생각이나 신기한 참고 레퍼런스를 공유하고 싶으신가요? 여기를 이용해주세요!
 
@@ -87,7 +97,9 @@ Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 �
 
 ### [11월 1일 공개] 📥 RL Village 환경 Download
 
-> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. **리눅스 서버 버젼의 환경파일은 제공하지 않습니다.**
+> RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. 
+>  
+> **리눅스 서버 버젼의 환경파일은 그래픽 장치가 있는 서버이어야 이미지 정보를 읽어서 학습할 수 있으니 주의하시기 바랍니다.**
 
 [<img src="./images/windows_button.png" width="200" />]()
 [<img src="./images/mac_button.png" width="200" />]()
