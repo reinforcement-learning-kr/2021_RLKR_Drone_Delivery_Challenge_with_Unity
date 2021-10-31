@@ -101,12 +101,11 @@ Unity Engine을 사용하여 제작되었으며 아래 링크에서 자세한 �
 
 > RL Village를 다운받으실 때는 참가자 여러분들의 OS에 맞는 파일을 다운받아주세요. 
 >  
-> **리눅스 서버 버젼의 환경파일은 그래픽 장치가 있는 서버이어야 이미지 정보를 읽어서 학습할 수 있으니 주의하시기 바랍니다.**
+> **리눅스 버젼의 환경파일은 그래픽 장치가 있는 서버이어야 이미지 정보를 읽어서 학습할 수 있으니 주의하시기 바랍니다.**
 
-[<img src="./images/windows_button.png" width="160" />](https://drive.google.com/drive/folders/1FW3LrUqabmx4ovT4gi0pOvF3PdkH7tdn?usp=sharing)
-[<img src="./images/mac_button.png" width="160" />](https://drive.google.com/drive/folders/14DRcTIgYrX_NvOGA6lokpXizRBs53Js2?usp=sharing)
-[<img src="./images/linux_button.png" width="160" />](https://drive.google.com/drive/folders/12YNv8Lv2stCq9wn5HdO3wYh6tgnPRKMi?usp=sharing)
-[<img src="./images/linux_server_button.png" width="160" />](https://drive.google.com/drive/folders/1BgrEEQXKuw3D4IUT7bGLK1b8zKpT6-St?usp=sharing)
+[<img src="./images/windows_button.png" width="200" />](https://drive.google.com/drive/folders/1FW3LrUqabmx4ovT4gi0pOvF3PdkH7tdn?usp=sharing)
+[<img src="./images/mac_button.png" width="200" />](https://drive.google.com/drive/folders/14DRcTIgYrX_NvOGA6lokpXizRBs53Js2?usp=sharing)
+[<img src="./images/linux_button.png" width="200" />](https://drive.google.com/drive/folders/12YNv8Lv2stCq9wn5HdO3wYh6tgnPRKMi?usp=sharing)
 
 
 ---
