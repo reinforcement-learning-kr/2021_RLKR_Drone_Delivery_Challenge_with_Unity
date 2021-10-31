@@ -1,4 +1,4 @@
-# submission후 evaluation이 진행 과정을 보여주는 code입니다.
+# submission후 evaluation이 진행 되는 과정을 보여주는 code입니다.
 # 채점 서버에서 다음과 같이 제출한 python script로 부터
 # Agent class를 상속받고, load_model()로 제출한 model을 불러온 후
 # 채점이 시작됩니다.
