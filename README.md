@@ -18,7 +18,7 @@
 
 ### 🔥 Who will be the coolest drone delivery model?
 
-### [리더보드](http://aifactory.space/competition/leaderboard/1893)
+[![](./images/leaderboard.png)](http://aifactory.space/competition/leaderboard/1893)
 
 ---
 ## ➡️ Index
