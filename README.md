@@ -56,15 +56,19 @@
 
 > 이전에 안내해드린 Slack 채널로는 운영하지 **않고** Github으로 통합할 예정입니다.
 
+### FAQ
+
+**챌린지에 관해 자주 나오는 질의응답은 [FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)에 정리되어 있으니 한번 확인해보세요!**
+
 ### Issues
 
 [![](./images/issues.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
-챌린지 기간 동안에 챌린지에 관한 모든 문의/문제들을 **운영진**에게 알려주실 수 있습니다. 
+```
+아래 각 이슈에 대한 설명을 읽어보시고 해당하는 Issue Template를 활용하여 문의사항을 적어주세요. 
 
-아래 Label에 맞는 이슈를 작성해주시면 빠른 시간내에 답변드리겠습니다! 
-
-> label은 이슈 작성시 작성란의 오른쪽에 있는 `Labels`에서 지정하실 수 있습니다.
+최대한 빠른 시간안에 답변드릴 수 있도록 노력하겠습니다!
+```
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
