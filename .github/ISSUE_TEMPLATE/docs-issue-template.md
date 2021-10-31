@@ -1,8 +1,8 @@
 ---
-name: 환경파일 issue template
-about: 챌린지 환경파일인 RL Village에 관한 이슈와 문의
-title: "[환경파일문의] Describe Your Issue"
-labels: 환경파일문의
+name: Docs issue template
+about: 챌린지 Github에 올라와 있는 docs에 관한 이슈와 문의
+title: "[Docs문의] Describe Your Issue"
+labels: Docs문의
 assignees: rlkorea
 
 ---
