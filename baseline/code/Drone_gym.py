@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     import matplotlib.pyplot as plt
     env = Drone_gym(
-            time_scale=1,
+            time_scale=1.0,
             filename='../RL_Drone/DroneDelivery.exe')
     state = env.reset()
     print(state)
