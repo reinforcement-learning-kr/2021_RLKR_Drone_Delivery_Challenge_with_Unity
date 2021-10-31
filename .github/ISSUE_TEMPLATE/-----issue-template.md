@@ -1,8 +1,8 @@
 ---
-name: 참가문의 issue template
-about: 챌린지 참가 신청에 관한 이슈와 문의
-title: "[참가신청문의] Describe Your Issue"
-labels: 참가신청문의
+name: 환경파일 issue template
+about: 챌린지 환경파일인 RL Village에 관한 이슈와 문의
+title: "[환경파일문의] Describe Your Issue"
+labels: 환경파일문의
 assignees: rlkorea
 
 ---
