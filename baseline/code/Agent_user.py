@@ -5,9 +5,10 @@
 import numpy as np
 
 class Agent:
-    def __init__(self):
+    def __init__(self, device):
         self.model = None
-
+        self.device = device
+        
     def policy(self, state):
         """Policy function p(a|s), Select three actions.
 
