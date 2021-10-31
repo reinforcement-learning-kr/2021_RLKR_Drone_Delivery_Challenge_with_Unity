@@ -3,7 +3,7 @@ name: Submission issue template
 about: 모델 제출, 리더보드에 관한 이슈와 문의
 title: "[Submission문의] Describe Your Issue"
 labels: Submission문의
-assignees: rlkorea
+assignees: tykimos, rlkorea
 
 ---
 
