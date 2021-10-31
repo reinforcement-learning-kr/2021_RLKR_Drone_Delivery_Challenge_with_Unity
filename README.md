@@ -6,9 +6,9 @@
 
 본 챌린지는 RL Korea에서 주최하는 2021 RL Korea Drone Delivery Challenge with Unity 입니다. 
 
-본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
+강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시켜 보세요!
 
-✅ 자세한 대회 안내는 아래 **챌린지 살펴보기 버튼**을 눌러 확인해보세요! 
+✅ 자세한 대회 안내는 아래 **챌린지 살펴보기 버튼**을 눌러 확인해보세요!
 
 [![](./images/explanation_button.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)
 
@@ -150,5 +150,5 @@ unity ml-agents 2.0에서 제공하는 알고리즘으로 참여하고 싶으신
 Thanks to
 
 <p align= "center">
-  <img src="./images/support.png" />
+  <img src="./images/support2.png" />
 </p>
