@@ -63,7 +63,7 @@
 - inference.py: 서버에서 진행되는 evaluation 진행 예시 입니다.
 - best_model: model이 저장되는 경로 입니다.
 
-### RL_Drone
+### RL_Drone 폴더.
 ```bash
 ─RL_Drone
     │  DroneDelivery.exe
