@@ -77,3 +77,10 @@
         │ ...
         └─ ...
 ```
+
+## Baseline Code 실행.
+```bash
+cd code
+python Agent_a2c.py
+python Agent_dqn.py
+```
