@@ -18,6 +18,8 @@
 
 ### 🔥 Who will be the coolest drone delivery model?
 
+[](http://aifactory.space/competition/leaderboard/1893)
+
 ---
 ## ➡️ Index
 
@@ -66,7 +68,7 @@
 
 - `참가신청문의` : 챌린지 참가 신청에 관한 이슈와 문의
 - `환경파일문의` : 챌린지 환경파일인 RL Village에 관한 이슈와 문의
-- `Documentation문의` : 챌린지 Github에 올라와 있는 docs에 관한 이슈와 문의
+- `Docs문의` : 챌린지 Github에 올라와 있는 [docs]()에 관한 이슈와 문의
 - `Submission문의` : 모델 제출, 리더보드에 관한 이슈와 문의
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
