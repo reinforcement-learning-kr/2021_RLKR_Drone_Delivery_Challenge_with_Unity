@@ -32,8 +32,9 @@
 |Date|Event|
 |-|-|
 |**2021.11.01**|챌린지 시작 START|
+|**2021.11.08**|모델 Submission START|
 |**2021.11.30**|챌린지 종료 END|
-
+> 모든 스케쥴은 해당 당일 오전 12시(0시)시작을 기준으로 합니다.
 
 ## 🏆 Awards
 2021 RL Korea Drone Delivery Challenge with Unity의 어워드는 다음과 같습니다.🎉
