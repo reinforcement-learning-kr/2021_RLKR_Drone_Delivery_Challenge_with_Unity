@@ -8,7 +8,7 @@
 
 본 챌린지는 강화학습 알고리즘으로 드론이 물류창고의 물품들을 배송지인 집으로 빠르고 안전하게 배송하도록 학습시키는 것이 목표입니다. 
 
-📍 자세한 대회 안내는 **Challenge Explanation**에서 확인해보세요! 
+✅ 자세한 대회 안내는 아래 **챌린지 살펴보기 버튼**을 눌러 확인해보세요! 
 
 [![](./images/explanation_button.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md)
 
@@ -18,7 +18,7 @@
 
 ### 🔥 Who will be the coolest drone delivery model?
 
-[![](./images/leaderboard.png)](http://aifactory.space/competition/leaderboard/1893)
+✅ 리더보드는 모델 제출이 가능한 `11월 8일`부터 Open 됩니다.
 
 ---
 ## ➡️ Index
@@ -60,7 +60,7 @@
 ### **챌린지에 관해 자주 나오는 질의응답은 [FAQ](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/2)에 정리되어 있으니 한번 확인해보세요!**
 
 ### Issues
-
+✅ **Issues 버튼**을 눌러 문의 사항을 남겨보세요! 
 [![](./images/issues.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/issues)
 
 ```
@@ -76,7 +76,7 @@
 - `기타문의` : 위 카테고리에 해당되지 않은 운영진에게 전달하고 싶은 이슈와 문의
 
 ### Discussions
-
+✅ **Discussions 버튼**을 눌러 자유롭게 글을 남겨보세요! 
 [![](./images/discussions.png)](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions)
 
 챌린지 기간 동안에 참여자분들을 위한 Communication 공간 입니다.
