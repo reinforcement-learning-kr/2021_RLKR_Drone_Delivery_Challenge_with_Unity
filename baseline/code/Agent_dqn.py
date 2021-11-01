@@ -317,8 +317,14 @@ def main():
     env = Drone_gym(
             time_scale=1.0,
             port=11000,
-            filename='../RL_Drone/DroneDelivery.exe')
-
+            filename='../RL_Drone/DroneDelivery.exe') 
+    '''
+    해상도 변경을 원할 경우, width, height 값 조절.
+    env = Drone_gym(
+            time_scale=1.0,
+            port=11000,
+            width=84, height=84, filename='../RL_Drone/DroneDelivery.exe')
+    '''
     score = 0
     reward_score = 0
     episode_step = 0
