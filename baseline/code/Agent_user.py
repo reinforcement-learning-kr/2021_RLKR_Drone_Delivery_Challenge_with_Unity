@@ -22,7 +22,7 @@ class Agent:
             3 continous actions vector (range -1 ~ 1) from policy.
             ex) [-1~1, -1~1, -1~1]
         """
-        action = np.random.randint(27) # Random policy for evaluation.
+        action = np.random.uniform(-1.0, 1.0, 3) # Random policy for evaluation.
 
         return action
     
