@@ -76,7 +76,8 @@ Please enter your user email: your-id@your-email-host.com
 
 #### 1) mlagents-learn을 이용해 학습한 onnx 파일 제출 
 
-mlagents-learn을 통해 학습을 수행하면 onnx 확장자를 가지는 파일이 생성됩니다. 이 경우에는 해당 파일만을 압축하고 제출하시면 됩니다. 본 문서에서는 이 파일을 `user_code.zip`이라는 압축 파일로 생성한 예시를 통해 설명을 진행하겠습니다. 
+mlagents-learn을 통해 학습을 수행하면 onnx 확장자를 가지는 파일이 생성됩니다. 이 경우에는 해당을 압축 없이 그대로 제출하시면 됩니다. 
+제출시 --file 명령어에 onnx 파일을 바로 설정해주시면 됩니다. 
 
 #### 2) Python API를 통해 학습한 모델 제출 
 
