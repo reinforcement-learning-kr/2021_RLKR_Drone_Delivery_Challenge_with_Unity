@@ -1,4 +1,7 @@
 # Submission
+
+:warning: 아직 제출 관련하여 불안정한 부분들이 있습니다! 제출시 생기는 문제 상황들은 Issue에 내용작성 해주시면 대응하겠습니다!  
+
 - 2021 RLKorea Drone Delivery Challenge with Unity 제출을 위한 가이드입니다. 
 
 - 제출을 위한 과정은 다음과 같습니다 
@@ -77,7 +80,64 @@ mlagents-learn을 통해 학습을 수행하면 onnx 확장자를 가지는 파�
 
 #### 2) Python API를 통해 학습한 모델 제출 
 
-Python API를 사용하는 경우 
+Python API를 사용하는 경우 다음의 파일들이 포함되어야 합니다. 
+
+- 학습된 모델 (Tensorflow, Pytorch)
+- Agent.py  
+- (optional) requirement.txt 
+
+아래 예시의 경우에서는 `user_code/` 폴더를 압축해서 전송해주세요! 
+
+```
+user_code/
+    ├── Agent.py
+    ├── requirements.txt
+    └── best_model/
+            └── best_model.pt
+```
+
+Agent.py 파일은 다음과 같은 형태를 가져야합니다. 
+
+```python
+# submission을 위한 Agent 파일 입니다.
+# policy(), load_model()의 arguments와 return은 변경하실 수 없습니다.
+# 그 외에 자유롭게 코드를 작성 해주시기 바랍니다.
+
+class Agent:
+    def __init__(self):
+        self.model = None
+
+    def policy(self, state): # state
+        """Policy function p(a|s), Select three actions.
+
+        Args:
+            state: all observations. consist of 6 observations.
+                   (front image observation, right image observation, 
+                    rear image observation, left image observation, 
+                    bottom image observation, vector observation)
+        Return:
+            3 continous actions vector (range -1 ~ 1) from policy.
+            ex) [-1~1, -1~1, -1~1]
+        """
+        
+        return action
+
+    def load_model(self):
+        """load Policy network.
+
+        Args:
+            None
+        Return:
+            None
+        """
+        # self.model.load('/best_model/best_policy') # load pytorch, tensorflow or etc.
+        return None
+```
+
+- policy 함수의 경우 상태를 입력으로 하며 행동을 결정해주는 함수입니다. 행동은 -1~1 사이의 크기를 가지는 값들로 구성된 3 dimension의 벡터입니다. 딥러닝 모델 등을 통해 학습된 행동을 결정할 수 있도록 합니다. 
+- load_model 함수는 TensorFlow, Pytorch 등의 학습된 모델을 불러오는 함수입니다. 
+
+위의 함수들을 제외한 네트워크 설정 등의 코드는 자유롭게 작성하여 제출하시면 됩니다! 
 
 ## 4. 파일 제출
 
@@ -141,13 +201,16 @@ aifactory-submit --key-path my_key.afk --file user_code.zip
 
 스코어는 AIFactory 페이지의 `제출하기` 에서 확인하실 수 있습니다.
 
+2가지 종류의 스코어가 도출되는 것을 확인 할 수 있습니다. 해당 스코어들에 대한 설명은 다음과 같습니다. 
+
+- 메인 스코어 (등수 산출시 사용): 배송성공 갯수 + (1/(1.1+평균소요시간))
+- 소요 시간
+
 결과물 채점이 실패했을 경우에는 에러메세지 확인하기 기능으로 오류내용을 확인하실 수 있습니다.
 
 제출 횟수 제한은 채점 '성공'을 기준으로 합니다.
 
 <img src="../images/submission_button.png" width=100% align="center">
-
- `제출하기` 로 들어가면 다음의 예시와 같이 제출에 대한 성공 및 실패 여부를 확인할 수 있습니다. 
 
 <img src="../images/submission_example.png" width=100% align="center">
 
@@ -170,3 +233,9 @@ aifactory-submit
 
 - 제출한 파일은 최대 2 개 까지 저장됩니다. 채점이 오래 걸리는 경우에 채점이 끝나기 전에 추가로 제출하시면 그 이전에 제출하신 결과물이 채점되지 않을 수 있습니다.
 - 실행 명령어가 작동하지 않는 경우에는 `python -m aifactory.Executables.(request_key/submit)` 등과 같이 모듈을 직접 실행시키시면 됩니다.
+- 아래 오류의 경우 환경을 너무 연속해서 실행했을 때 유니티 ML-Agents에서 자체적으로 가끔씩 발생하는 에러입니다. 해당 에러가 발생한 경우 조금 후에 다시 제출 부탁드립니다. 
+
+```
+self._communicator.close() AttributeError: `UnityEnvironment` object has no attribute `_communicator`
+```
+
