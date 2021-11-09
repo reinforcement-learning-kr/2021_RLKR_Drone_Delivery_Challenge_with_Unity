@@ -84,7 +84,7 @@ Python API를 사용하는 경우 다음의 파일들이 포함되어야 합니�
 
 - 학습된 모델 (Tensorflow, Pytorch)
 - Agent.py  
-- (optional) requirement.txt 
+- (optional) requirement.txt -> mlagents 설치 시 사용되는 라이브러리 외에 다른 라이브러리를 추가적으로 사용하는 경우 해당 내용에 대한 작성 부탁드립니다!
 
 아래 예시의 경우에서는 `user_code/` 폴더를 압축해서 전송해주세요! 
 
