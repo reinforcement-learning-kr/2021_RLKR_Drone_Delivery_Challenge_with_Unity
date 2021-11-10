@@ -20,7 +20,7 @@
 
 ### 🔥 Who will be the coolest drone delivery model?
 
-✅ 리더보드는 모델 제출이 가능한 `11월 8일`부터 Open 됩니다.
+[![](images/leaderboard.png)](http://aifactory.space/competition/detail/1893)
 
 ---
 ## ➡️ Index
