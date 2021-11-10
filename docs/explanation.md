@@ -4,7 +4,7 @@
 - [Evaluation](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#evaluation)
     - [⭐️ 평가 항목 우선순위](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#%EF%B8%8F-%ED%8F%89%EA%B0%80-%ED%95%AD%EB%AA%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84)
     - [Test Environment](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#test-environment)
-    - [Leaderboard](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#leaderboard)
+    - [Submission](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/explanation.md#submission)
 ---
 
 # Challenge Explanation
@@ -71,19 +71,6 @@ Submission된 모델들을 평가하는 방식에 대해서 설명합니다.
 - `raw score`: Unity로 빌드된 RL Village에서 출력되는 누적 스코어이며 평가에 사용되는 항목은 **아닙니다.** 
 > 더 나은 모델 연구를 위한 참고용으로만 사용해주세요.
 
-### Leaderboard
+### Submission
 
-> TBA
-
-Submission된 모델들을 평가한 후 순위가 매겨지고 리더보드 구성은 다음과 같습니다.
-
-- `순위`
-- `팀명`
-- `배달 완료수`
-- `소요 시간`
-- `Raw Score`
-- `상세정보`: `보기`를 누르면 Test Envrionment 10개 각각에서의 제출된 모델의 퍼포먼스를 볼 수 있습니다.
-
-#### 리더보드에 기록되는 각 항목 설명
-
-> TBA
+챌린지 모델 제출은 11월 10일부터 가능하며, 자세한 제출 방법과 점수 확인 방법은 [Submission.md](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/blob/master/docs/submission.md)에서 확인해주세요.
