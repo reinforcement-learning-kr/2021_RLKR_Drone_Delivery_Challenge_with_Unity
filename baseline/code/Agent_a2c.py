@@ -70,31 +70,40 @@ class A2C_network(nn.Module):
         return action_distribution, v
      
 class Agent:
-    def __init__(self, device):
+    def __init__(self):
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") 
         self.policy_net = A2C_network().to(device)
         self.device = device
         self.data_buffer = deque(maxlen=8)
         self.learning_rate = 0.00025
         self.a2c_optimizer = optim.Adam(self.policy_net.parameters(), lr=self.learning_rate)
-
+        
+        self.init_check = 0
+        self.cur_obs = None
+        
     def policy(self, obs): 
         """Policy function p(a|s), Select three actions.
 
         Args:
-            obs: all observations. consist of 6 observations.
-                   (front image observation, right image observation, 
-                   rear image observation, left image observation, 
-                   bottom observation, vector observation)
+            state: all observations. consist of 7 observations.
+                   (vector observation, front image observation,
+                   right image observation, rear image observation,
+                   left image observation, side raycast, bottom raycast)
 
         Return:
             3 continous actions vector (range -1 ~ 1) from policy.
             ex) [-1~1, -1~1, -1~1]
         """
-        action_distribution, _ = self.policy_net(obs)
+        if self.init_check == 0:
+            self.cur_obs = self.init_obs(obs)
+            self.init_check += 1
+        else:
+            self.cur_obs = self.accumulated_all_obs(self.cur_obs, obs)
+        action_distribution, _ = self.policy_net(self.torch_obs(self.cur_obs))
         distribution = Categorical(action_distribution) ## pytorch categorical 함수는 array에 담겨진 값들을 확률로 정해줍니다.
         action = distribution.sample().item()
      
-        return self.convert_action(action) ## inference를 위한 (x, y, z) 위치 action.
+        return self.convert_action(action)
 
     def train_policy(self, obs):
         action_distribution, _ = self.policy_net(obs)
@@ -108,7 +117,7 @@ class Agent:
         return None
 
     def load_model(self):
-        self.policy_net.load_state_dict(torch.load('./best_model/best_model.pkl'))
+        self.policy_net.load_state_dict(torch.load('./best_model/best_model.pkl', map_location=self.device))
         return None
 
     def store_trajectory(self, traj):
@@ -330,7 +339,7 @@ def main():
     episode = 999999999999
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") 
-    agent = Agent(device)
+    agent = Agent()
   
     for epi in range(episode):
         obs = env.reset()
