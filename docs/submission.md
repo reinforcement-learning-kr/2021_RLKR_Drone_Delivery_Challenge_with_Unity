@@ -77,7 +77,9 @@ Please enter your user email: your-id@your-email-host.com
 #### 1) mlagents-learn을 이용해 학습한 run-id 폴더 제출 
 
 mlagents-learn을 통해 학습을 수행하면 --run-id로 설정한 이름과 동일한 이름의 폴더가 results 폴더 내부에 생성됩니다. 이 폴더를 압축하여 제출해주세요! 
+
 만약 용량이 너무 커서 제출이 안된다면 run-id 폴더/My Behavior 내부에 checkpoint, 사용하는 onnx 파일 외에 다른 파일들은 삭제하고 압축해서 제출하셔도 괜찮습니다!  
+
 제출시 --file 명령어에 해당 압축 파일을 바로 설정해주시면 됩니다. 
 
 #### 2) Python API를 통해 학습한 모델 제출 
