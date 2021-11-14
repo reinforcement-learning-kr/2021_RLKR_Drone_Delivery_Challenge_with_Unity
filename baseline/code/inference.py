@@ -17,7 +17,7 @@ def main():
     episode_step = 0
     episode = 10
 
-    agent = Agent('cpu') # user가 제출한 Agent class에서 불러오기.
+    agent = Agent() # user가 제출한 Agent class에서 불러오기.
     try:
         agent.load_model() # user의 모델 불러오기. 경로는 best_model 폴더.
         print("Succeed load User's model")
