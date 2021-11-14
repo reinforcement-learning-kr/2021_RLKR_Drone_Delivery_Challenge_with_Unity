@@ -74,10 +74,11 @@ Please enter your user email: your-id@your-email-host.com
 
 참가자 분들의 경우 2가지 방법을 중 하나를 통해 챌린지에 참여해주셨을 것으로 생각합니다! 첫번째는 유니티 ML-Agents에서 제공하는 강화학습 알고리즘을 통해 학습하는 방식인 mlagents-learn을 이용한 학습, 두번째는 Python API를 통해 직접 파이썬으로 강화학습 코드를 구현하고 이를 통해 학습을 수행한 경우입니다. 각각의 경우에 따라 제출하는 파일의 구성에 차이가 있습니다. 
 
-#### 1) mlagents-learn을 이용해 학습한 onnx 파일 제출 
+#### 1) mlagents-learn을 이용해 학습한 run-id 폴더 제출 
 
-mlagents-learn을 통해 학습을 수행하면 onnx 확장자를 가지는 파일이 생성됩니다. 이 경우에는 해당을 압축 없이 그대로 제출하시면 됩니다. 
-제출시 --file 명령어에 onnx 파일을 바로 설정해주시면 됩니다. 
+mlagents-learn을 통해 학습을 수행하면 --run-id로 설정한 이름과 동일한 이름의 폴더가 results 폴더 내부에 생성됩니다. 이 폴더를 압축하여 제출해주세요! 
+만약 용량이 너무 커서 제출이 안된다면 run-id 폴더/My Behavior 내부에 checkpoint, 사용하는 onnx 파일 외에 다른 파일들은 삭제하고 압축해서 제출하셔도 괜찮습니다!  
+제출시 --file 명령어에 해당 압축 파일을 바로 설정해주시면 됩니다. 
 
 #### 2) Python API를 통해 학습한 모델 제출 
 
@@ -88,6 +89,7 @@ Python API를 사용하는 경우 다음의 파일들이 포함되어야 합니�
 - (optional) requirement.txt 
   - mlagents 설치 시 사용되는 라이브러리 외에 다른 라이브러리를 추가적으로 사용하는 경우 해당 내용에 대한 작성 부탁드립니다!
 
+**여기서 주의하실 점이 해당 압축폴더에는 .onnx 파일이 포함되면 안됩니다! onnx 파일의 유무로 python-api인지, mlagents-learn인지 구분하므로 꼭 확인해주세요!**
 아래 예시의 경우에서는 `user_code/` 폴더를 압축해서 전송해주세요! 
 
 ```
@@ -124,7 +126,7 @@ class Agent:
         
         return action
 
-    def load_model(self):
+    def load_model(self, weight_file_path=None, map_location=None): # weight_file_path나 map_location도 꼭 추가해주셔야 합니다!
         """load Policy network.
 
         Args:
@@ -192,9 +194,8 @@ aifactory-submit --key-path my_key.afk --file user_code.zip
 - 제출 성공시에는 사용자분의 제출 기록을 위해 사용된 모델 이름과 총 몇 번 제출하셨는지 (인증 성공 후 제출 시도 횟수)가 기록되어 있습니다.
 
 - 제출에는 횟수 제한이 있습니다
-  - 시간 당 성공 회차 기준 5회 제출 가능
-  - 실패한 시도 포함 시간 당 20회 제출 가능
-  - 한 계정당 총 50 회 제출 가능
+  - 하루 동안 성공 회차 기준 5회 제출 가능
+  - 한 계정당 총 제출 횟수 제한은 없음 
   - 제출한 파일은 2 회분만 저장
 
 - 제출에 실패하셨을 경우에는 실패하셨을 때 생성된 로그를 첨부해서 대회 운영진에게 문의해주세요
@@ -203,19 +204,14 @@ aifactory-submit --key-path my_key.afk --file user_code.zip
 
 스코어는 AIFactory 페이지의 `제출하기` 에서 확인하실 수 있습니다.
 
-2가지 종류의 스코어가 도출되는 것을 확인 할 수 있습니다. 해당 스코어들에 대한 설명은 다음과 같습니다. 
-
+스코어가 도출되는 것을 확인 할 수 있습니다. 
 - 메인 스코어 (등수 산출시 사용): 배송성공 갯수 + (1/(1.1+평균소요시간))
-- 소요 시간
 
 결과물 채점이 실패했을 경우에는 에러메세지 확인하기 기능으로 오류내용을 확인하실 수 있습니다.
 
 제출 횟수 제한은 채점 '성공'을 기준으로 합니다.
 
 <img src="../images/submission_button.png" width=100% align="center">
-
-<img src="../images/submission_example.png" width=100% align="center">
-
 
 
 ### 기타 사용 가능한 모든 옵션
