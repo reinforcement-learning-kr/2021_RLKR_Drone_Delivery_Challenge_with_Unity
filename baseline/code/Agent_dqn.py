@@ -64,7 +64,8 @@ class Q_network(nn.Module):
         return Q_values 
      
 class Agent:
-    def __init__(self, device):
+    def __init__(self):
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") 
         self.policy_net = Q_network().to(device)
         self.Q_target_net = Q_network().to(device)
         self.learning_rate = 0.00025
@@ -77,6 +78,9 @@ class Agent:
         
         self.device = device
         self.data_buffer = deque(maxlen=100000)
+
+        self.init_check = 0
+        self.cur_state = None
         
     def epsilon_greedy(self, Q_values):
         if np.random.rand() <= self.epsilon: ## 0~1의 균일분포 표준정규분포 난수를 생성. 정해준 epsilon 값보다 작은 random 값이 나오면 
@@ -85,6 +89,7 @@ class Agent:
         
         else: ## epsilon 값보다 크면, 학습된 Q_player NN 에서 얻어진 Q_values 값중 가장 큰 action을 선택합니다.
             return Q_values.argmax().item()
+        
     def policy(self, obs): 
         """Policy function p(a|s), Select three actions.
 
@@ -98,7 +103,12 @@ class Agent:
             3 continous actions vector (range -1 ~ 1) from policy.
             ex) [-1~1, -1~1, -1~1]
         """
-        Q_values = self.policy_net(obs)
+        if self.init_check == 0:
+            self.cur_obs = self.init_obs(obs)
+            self.init_check += 1
+        else:
+            self.cur_obs = self.accumulated_all_obs(self.cur_obs, obs)
+        Q_values = self.policy_net(self.torch_obs( self.cur_obs))
         action = self.epsilon_greedy(Q_values)
      
         return self.convert_action(action) ## inference를 위한 (x, y, z) 위치 action, 각각 0~1 사이의 continuous value.
@@ -126,7 +136,7 @@ class Agent:
         return None
 
     def load_model(self):
-        self.policy_net.load_state_dict(torch.load('./best_model/best_model.pkl'))
+        self.policy_net.load_state_dict(torch.load('./best_model/best_model.pkl', map_location=self.device))
         return None
 
     def store_trajectory(self, traj):
@@ -333,9 +343,8 @@ def main():
 
     initial_exploration = 2000
     update_target = 2000
-
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") 
-    agent = Agent(device)
+    
+    agent = Agent()
   
     for epi in range(episode):
         obs = env.reset()
