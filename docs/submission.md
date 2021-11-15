@@ -74,9 +74,21 @@ Please enter your user email: your-id@your-email-host.com
 
 참가자 분들의 경우 2가지 방법을 중 하나를 통해 챌린지에 참여해주셨을 것으로 생각합니다! 첫번째는 유니티 ML-Agents에서 제공하는 강화학습 알고리즘을 통해 학습하는 방식인 mlagents-learn을 이용한 학습, 두번째는 Python API를 통해 직접 파이썬으로 강화학습 코드를 구현하고 이를 통해 학습을 수행한 경우입니다. 각각의 경우에 따라 제출하는 파일의 구성에 차이가 있습니다. 
 
-#### 1) mlagents-learn을 이용해 학습한 run-id 폴더 제출 
+#### 1) mlagents-learn을 이용해 학습한 모델 
 
-mlagents-learn을 통해 학습을 수행하면 --run-id로 설정한 이름과 동일한 이름의 폴더가 results 폴더 내부에 생성됩니다. 이 폴더를 압축하여 제출해주세요! 
+mlagents-learn을 통해 학습을 수행하면 --run-id로 설정한 이름과 동일한 이름의 폴더가 results 폴더 내부에 생성됩니다. 
+
+이 폴더와 학습에 사용한 yaml 파일을 압축하여 제출해주세요! 
+
+압축파일에 대한 구성을 나타내면 다음과 같습니다 
+```
+submit.zip/
+    ├── train.yaml
+    └── run-id/
+          └── My Behavior/
+                  └── model.onnx
+                  └── checkpoint
+```
 
 만약 용량이 너무 커서 제출이 안된다면 run-id 폴더/My Behavior 내부에 checkpoint, 사용하는 onnx 파일 외에 다른 파일들은 삭제하고 압축해서 제출하셔도 괜찮습니다!  
 
