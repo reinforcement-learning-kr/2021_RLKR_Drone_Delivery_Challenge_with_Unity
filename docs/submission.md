@@ -142,7 +142,7 @@ class Agent:
 
     def load_model(self, weight_file_path=None, map_location=None): 
         # weight_file_path나 map_location도 꼭 추가해주셔야 합니다!
-        # 또한 weight_file_path에는 .pt 파일이나 .ckpt 파일의 절대경로가 자동으로 들어가므로 해당 경로를 사용해서 모델을 불러오시면 됩니다!
+        # weight_file_path에는 .pt 파일이나 .ckpt 파일의 절대경로가 자동으로 들어가므로 해당 경로를 사용해서 모델을 불러오시면 됩니다!
         """load Policy network.
 
         Args:
@@ -156,6 +156,7 @@ class Agent:
 
 - policy 함수의 경우 상태를 입력으로 하며 행동을 결정해주는 함수입니다. 행동은 -1~1 사이의 크기를 가지는 값들로 구성된 3 dimension의 벡터입니다. 딥러닝 모델 등을 통해 학습된 행동을 결정할 수 있도록 합니다. 
 - load_model 함수는 TensorFlow, Pytorch 등의 학습된 모델을 불러오는 함수입니다. 
+
 **(중요)** 주석을 통해 언급한대로 load_modal 함수에서는 .pt나 .ckpt 파일을 탐색하고 그 절대 경로를 자동으로 지정합니다! 이에따라 weight_file_path 경로를 이용하여 모델을 불러오셔야 합니다!  
 
 위의 함수들을 제외한 네트워크 설정 등의 코드는 자유롭게 작성하여 제출하시면 됩니다! 
