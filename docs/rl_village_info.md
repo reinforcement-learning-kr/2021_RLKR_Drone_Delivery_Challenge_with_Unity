@@ -113,6 +113,9 @@ RL Village에는 드론이 미션을 수행하기 위해 얻어야할 많은 정
 - 목표 지점과 거리에 따른 보상
     - `현재 Step에서 목표지점과 거리(curDistance) - 이전 Step에서 목표지점과 거리(preDistance)`
 
+- 배달할 집이 여러 개 일때는 목표지점은 현재 드론 에이전트가 위치한 곳에서 가장 가까운 집의 위치로 계산됩니다.
+    - 배달할 집 A, B, C 중,  A에는 배달을 완료하고 B, C가 아직 배달이 안된 상태일 때 : B와 C 중 가까운 집을 기준으로 거리에 따른 보상을 	 
+
 
 <p align= "left">
   <img src="../images/distance_reward.png" width="700"/>
