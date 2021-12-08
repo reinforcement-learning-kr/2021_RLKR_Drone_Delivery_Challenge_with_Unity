@@ -2,6 +2,8 @@
   <img src="./images/main.png" />
 </p>
 
+## 🎉 [2021 RL Korea Drone Delivery Challenge with Unity 수상자 발표](https://github.com/reinforcement-learning-kr/2021_RLKR_Drone_Delivery_Challenge_with_Unity/discussions/29#discussion-3729231) 🎉
+
 ## Welcome!👋
 
 본 챌린지는 RL Korea에서 주최하는 2021 RL Korea Drone Delivery Challenge with Unity 입니다. 
